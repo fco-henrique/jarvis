@@ -1,0 +1,1126 @@
+{
+  "src/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/desktop_app/app.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "src/desktop_app/chat_window.py": {
+    "mi": 27.672927109598735,
+    "rank": "A"
+  },
+  "src/desktop_app/cuda_recovery.py": {
+    "mi": 66.87902119807215,
+    "rank": "A"
+  },
+  "src/desktop_app/diary_dialog.py": {
+    "mi": 60.493765238327505,
+    "rank": "A"
+  },
+  "src/desktop_app/dictation_history.py": {
+    "mi": 50.581371735795486,
+    "rank": "A"
+  },
+  "src/desktop_app/face_widget.py": {
+    "mi": 22.419028437532543,
+    "rank": "A"
+  },
+  "src/desktop_app/log_output.py": {
+    "mi": 46.035681710089605,
+    "rank": "A"
+  },
+  "src/desktop_app/macos_tray.py": {
+    "mi": 65.66638715892682,
+    "rank": "A"
+  },
+  "src/desktop_app/mcp_catalogue.py": {
+    "mi": 81.79353450521127,
+    "rank": "A"
+  },
+  "src/desktop_app/memory_viewer.py": {
+    "mi": 18.89797554909898,
+    "rank": "B"
+  },
+  "src/desktop_app/paths.py": {
+    "mi": 85.67346766001236,
+    "rank": "A"
+  },
+  "src/desktop_app/qt_worker.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/desktop_app/rthook_onnxruntime.py": {
+    "mi": 88.11560689934089,
+    "rank": "A"
+  },
+  "src/desktop_app/settings_window.py": {
+    "mi": 8.24700073219284,
+    "rank": "C"
+  },
+  "src/desktop_app/setup_wizard.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "src/desktop_app/splash_screen.py": {
+    "mi": 52.813773235972576,
+    "rank": "A"
+  },
+  "src/desktop_app/themes.py": {
+    "mi": 61.74150459849281,
+    "rank": "A"
+  },
+  "src/desktop_app/updater.py": {
+    "mi": 42.7071660988771,
+    "rank": "A"
+  },
+  "src/desktop_app/update_dialog.py": {
+    "mi": 32.64270266460029,
+    "rank": "A"
+  },
+  "src/desktop_app/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/desktop_app/__main__.py": {
+    "mi": 81.85633424453339,
+    "rank": "A"
+  },
+  "src/desktop_app/desktop_assets/generate_icons.py": {
+    "mi": 74.33390993094824,
+    "rank": "A"
+  },
+  "src/jarvis/config.py": {
+    "mi": 31.32685060436576,
+    "rank": "A"
+  },
+  "src/jarvis/daemon.py": {
+    "mi": 23.491250719307153,
+    "rank": "A"
+  },
+  "src/jarvis/debug.py": {
+    "mi": 78.59230118233651,
+    "rank": "A"
+  },
+  "src/jarvis/main.py": {
+    "mi": 98.60173220882173,
+    "rank": "A"
+  },
+  "src/jarvis/system_prompt.py": {
+    "mi": 93.7852526657845,
+    "rank": "A"
+  },
+  "src/jarvis/__init__.py": {
+    "mi": 76.97070600463623,
+    "rank": "A"
+  },
+  "src/jarvis/dictation/dictation_engine.py": {
+    "mi": 11.74655426563107,
+    "rank": "B"
+  },
+  "src/jarvis/dictation/history.py": {
+    "mi": 69.14088889137203,
+    "rank": "A"
+  },
+  "src/jarvis/dictation/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/listening/echo_detection.py": {
+    "mi": 37.467263940969204,
+    "rank": "A"
+  },
+  "src/jarvis/listening/intent_judge.py": {
+    "mi": 44.828149856428375,
+    "rank": "A"
+  },
+  "src/jarvis/listening/listener.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "src/jarvis/listening/model_download.py": {
+    "mi": 31.268076399629695,
+    "rank": "A"
+  },
+  "src/jarvis/listening/state_manager.py": {
+    "mi": 43.6783662409421,
+    "rank": "A"
+  },
+  "src/jarvis/listening/transcript_buffer.py": {
+    "mi": 50.87095564917483,
+    "rank": "A"
+  },
+  "src/jarvis/listening/wake_detection.py": {
+    "mi": 63.50002889453435,
+    "rank": "A"
+  },
+  "src/jarvis/listening/__init__.py": {
+    "mi": 91.62856931801983,
+    "rank": "A"
+  },
+  "src/jarvis/llm/backend.py": {
+    "mi": 81.46710835607105,
+    "rank": "A"
+  },
+  "src/jarvis/llm/errors.py": {
+    "mi": 90.03563780532734,
+    "rank": "A"
+  },
+  "src/jarvis/llm/factory.py": {
+    "mi": 74.87111863652731,
+    "rank": "A"
+  },
+  "src/jarvis/llm/ollama.py": {
+    "mi": 43.67790033695989,
+    "rank": "A"
+  },
+  "src/jarvis/llm/openai_compatible.py": {
+    "mi": 37.532665132030544,
+    "rank": "A"
+  },
+  "src/jarvis/llm/tiers.py": {
+    "mi": 63.937727274176524,
+    "rank": "A"
+  },
+  "src/jarvis/llm/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/memory/conversation.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "src/jarvis/memory/db.py": {
+    "mi": 38.196180570960315,
+    "rank": "A"
+  },
+  "src/jarvis/memory/graph.py": {
+    "mi": 37.39668092631051,
+    "rank": "A"
+  },
+  "src/jarvis/memory/graph_ops.py": {
+    "mi": 27.32392334217245,
+    "rank": "A"
+  },
+  "src/jarvis/memory/recall_gate.py": {
+    "mi": 74.7156889356158,
+    "rank": "A"
+  },
+  "src/jarvis/memory/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/output/tts.py": {
+    "mi": 19.090595868877823,
+    "rank": "A"
+  },
+  "src/jarvis/output/tune_player.py": {
+    "mi": 53.23686534656701,
+    "rank": "A"
+  },
+  "src/jarvis/output/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/reply/compound_query.py": {
+    "mi": 72.72007408971999,
+    "rank": "A"
+  },
+  "src/jarvis/reply/engine.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "src/jarvis/reply/enrichment.py": {
+    "mi": 32.18102091510302,
+    "rank": "A"
+  },
+  "src/jarvis/reply/evaluator.py": {
+    "mi": 46.37525878713396,
+    "rank": "A"
+  },
+  "src/jarvis/reply/planner.py": {
+    "mi": 27.735637512197528,
+    "rank": "A"
+  },
+  "src/jarvis/reply/prompt_dump.py": {
+    "mi": 79.72692638198232,
+    "rank": "A"
+  },
+  "src/jarvis/reply/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/reply/prompts/model_variants.py": {
+    "mi": 78.95388866218141,
+    "rank": "A"
+  },
+  "src/jarvis/reply/prompts/system.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/reply/prompts/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/tools/base.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/tools/http_response.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/tools/registry.py": {
+    "mi": 45.41137251744706,
+    "rank": "A"
+  },
+  "src/jarvis/tools/selection.py": {
+    "mi": 50.29735186343456,
+    "rank": "A"
+  },
+  "src/jarvis/tools/types.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/tools/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/fetch_web_page.py": {
+    "mi": 39.78264938020653,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/local_files.py": {
+    "mi": 40.48471013552549,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/refresh_mcp_tools.py": {
+    "mi": 67.02949371799154,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/screenshot.py": {
+    "mi": 65.42002728835634,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/stop.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/time_tool.py": {
+    "mi": 56.76220935165381,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/tool_search.py": {
+    "mi": 59.417915819066316,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/weather.py": {
+    "mi": 39.32246897329923,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/web_search.py": {
+    "mi": 16.623249299017676,
+    "rank": "B"
+  },
+  "src/jarvis/tools/builtin/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/nutrition/delete_meal.py": {
+    "mi": 56.367084770053296,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/nutrition/fetch_meals.py": {
+    "mi": 44.9960581223528,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/nutrition/log_meal.py": {
+    "mi": 50.61837124570325,
+    "rank": "A"
+  },
+  "src/jarvis/tools/builtin/nutrition/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/tools/external/mcp_client.py": {
+    "mi": 51.7068638756608,
+    "rank": "A"
+  },
+  "src/jarvis/tools/external/mcp_runtime.py": {
+    "mi": 43.688700714259106,
+    "rank": "A"
+  },
+  "src/jarvis/tools/external/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/utils/audio_capture.py": {
+    "mi": 36.70289950904045,
+    "rank": "A"
+  },
+  "src/jarvis/utils/audio_lock.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "src/jarvis/utils/embedding_vector.py": {
+    "mi": 72.20485866167995,
+    "rank": "A"
+  },
+  "src/jarvis/utils/fast_vector_store.py": {
+    "mi": 51.00306488241939,
+    "rank": "A"
+  },
+  "src/jarvis/utils/fuzzy_search.py": {
+    "mi": 66.68051169524644,
+    "rank": "A"
+  },
+  "src/jarvis/utils/location.py": {
+    "mi": 27.45872177832945,
+    "rank": "A"
+  },
+  "src/jarvis/utils/redact.py": {
+    "mi": 93.54827914505555,
+    "rank": "A"
+  },
+  "src/jarvis/utils/time_context.py": {
+    "mi": 86.49418013700573,
+    "rank": "A"
+  },
+  "src/jarvis/utils/vector_persistence.py": {
+    "mi": 59.331682014702224,
+    "rank": "A"
+  },
+  "src/jarvis/utils/vector_store.py": {
+    "mi": 57.531342231819835,
+    "rank": "A"
+  },
+  "src/jarvis/utils/vram.py": {
+    "mi": 57.41313207748739,
+    "rank": "A"
+  },
+  "src/jarvis/utils/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/conftest.py": {
+    "mi": 61.04379474851549,
+    "rank": "A"
+  },
+  "tests/test_audio_capture_pipeline.py": {
+    "mi": 7.414058304157923,
+    "rank": "C"
+  },
+  "tests/test_chat_submission.py": {
+    "mi": 15.175225007389235,
+    "rank": "B"
+  },
+  "tests/test_chat_window.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/test_compound_query.py": {
+    "mi": 49.135447002354105,
+    "rank": "A"
+  },
+  "tests/test_config_atomic_save.py": {
+    "mi": 59.89942659765321,
+    "rank": "A"
+  },
+  "tests/test_config_mcps.py": {
+    "mi": 76.97331917896082,
+    "rank": "A"
+  },
+  "tests/test_config_models.py": {
+    "mi": 45.45821134631167,
+    "rank": "A"
+  },
+  "tests/test_config_path_expansion.py": {
+    "mi": 62.49677263467065,
+    "rank": "A"
+  },
+  "tests/test_desktop_app.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/test_desktop_keepalive_workers.py": {
+    "mi": 70.63624100716441,
+    "rank": "A"
+  },
+  "tests/test_dialogue_memory.py": {
+    "mi": 22.860375151027103,
+    "rank": "A"
+  },
+  "tests/test_dialogue_memory_hot_cache.py": {
+    "mi": 54.91971924403211,
+    "rank": "A"
+  },
+  "tests/test_dialogue_memory_tool_carryover.py": {
+    "mi": 47.44444915065534,
+    "rank": "A"
+  },
+  "tests/test_diary_embedding_failure.py": {
+    "mi": 46.87206435898694,
+    "rank": "A"
+  },
+  "tests/test_diary_embedding_freshness.py": {
+    "mi": 30.72142013347195,
+    "rank": "A"
+  },
+  "tests/test_diary_enrichment_flow.py": {
+    "mi": 53.86863593082998,
+    "rank": "A"
+  },
+  "tests/test_diary_fallback_index.py": {
+    "mi": 42.863516397222675,
+    "rank": "A"
+  },
+  "tests/test_diary_generation_budget.py": {
+    "mi": 53.71792011483731,
+    "rank": "A"
+  },
+  "tests/test_diary_graph_logging.py": {
+    "mi": 71.91481660833416,
+    "rank": "A"
+  },
+  "tests/test_diary_import.py": {
+    "mi": 46.93623189945974,
+    "rank": "A"
+  },
+  "tests/test_diary_pending_batches.py": {
+    "mi": 16.005758856563464,
+    "rank": "B"
+  },
+  "tests/test_diary_poisoning_defence.py": {
+    "mi": 61.281646182596006,
+    "rank": "A"
+  },
+  "tests/test_diary_rewrite_sweep.py": {
+    "mi": 46.00777792893858,
+    "rank": "A"
+  },
+  "tests/test_diary_summary_identity.py": {
+    "mi": 27.8328581431132,
+    "rank": "A"
+  },
+  "tests/test_diary_topic_optimise.py": {
+    "mi": 45.115992673426696,
+    "rank": "A"
+  },
+  "tests/test_dictation.py": {
+    "mi": 9.833763872106937,
+    "rank": "B"
+  },
+  "tests/test_dictation_history.py": {
+    "mi": 29.18828160347764,
+    "rank": "A"
+  },
+  "tests/test_echo_detection.py": {
+    "mi": 29.188024903727324,
+    "rank": "A"
+  },
+  "tests/test_embedding_timeout_wiring.py": {
+    "mi": 83.38129128805292,
+    "rank": "A"
+  },
+  "tests/test_engine_hot_window_caches.py": {
+    "mi": 60.78343083543511,
+    "rank": "A"
+  },
+  "tests/test_engine_kv_cache.py": {
+    "mi": 56.28617036941952,
+    "rank": "A"
+  },
+  "tests/test_engine_planner_integration.py": {
+    "mi": 44.7594781507043,
+    "rank": "A"
+  },
+  "tests/test_engine_tool_carryover.py": {
+    "mi": 56.95992910345308,
+    "rank": "A"
+  },
+  "tests/test_engine_tool_carryover_guard.py": {
+    "mi": 48.55198016466071,
+    "rank": "A"
+  },
+  "tests/test_engine_tool_search_loop.py": {
+    "mi": 47.805851462807084,
+    "rank": "A"
+  },
+  "tests/test_enrichment.py": {
+    "mi": 14.560880924822674,
+    "rank": "B"
+  },
+  "tests/test_enrichment_model_routing.py": {
+    "mi": 89.49741981548434,
+    "rank": "A"
+  },
+  "tests/test_evaluator.py": {
+    "mi": 36.27640878846553,
+    "rank": "A"
+  },
+  "tests/test_eval_backend_config.py": {
+    "mi": 21.628714053033427,
+    "rank": "A"
+  },
+  "tests/test_eval_diary_config.py": {
+    "mi": 49.19652362476595,
+    "rank": "A"
+  },
+  "tests/test_eval_helpers.py": {
+    "mi": 64.8436832492392,
+    "rank": "A"
+  },
+  "tests/test_eval_max_turn_digest_contract.py": {
+    "mi": 52.13563302559945,
+    "rank": "A"
+  },
+  "tests/test_eval_memory_digest_contract.py": {
+    "mi": 47.98956690658745,
+    "rank": "A"
+  },
+  "tests/test_eval_memory_digest_relevance_contract.py": {
+    "mi": 57.9060671311693,
+    "rank": "A"
+  },
+  "tests/test_eval_memory_tool_grounding_contract.py": {
+    "mi": 44.16340963094346,
+    "rank": "A"
+  },
+  "tests/test_eval_multi_turn_contract.py": {
+    "mi": 44.25023450622062,
+    "rank": "A"
+  },
+  "tests/test_eval_nutrition_config.py": {
+    "mi": 43.50911120244468,
+    "rank": "A"
+  },
+  "tests/test_eval_recall_parameter_contract.py": {
+    "mi": 51.18192302042454,
+    "rank": "A"
+  },
+  "tests/test_eval_tool_digest_facts_contract.py": {
+    "mi": 59.32268355826264,
+    "rank": "A"
+  },
+  "tests/test_face_widget.py": {
+    "mi": 51.666273505456395,
+    "rank": "A"
+  },
+  "tests/test_factory_dispatch_wiring.py": {
+    "mi": 65.51219425835922,
+    "rank": "A"
+  },
+  "tests/test_fetch_web_page_argument_types.py": {
+    "mi": 42.20532443576596,
+    "rank": "A"
+  },
+  "tests/test_fetch_web_page_byte_limit.py": {
+    "mi": 32.55996325019058,
+    "rank": "A"
+  },
+  "tests/test_fetch_web_page_decompression_memory.py": {
+    "mi": 45.87897249989243,
+    "rank": "A"
+  },
+  "tests/test_frozen_env_guards.py": {
+    "mi": 73.18079539823309,
+    "rank": "A"
+  },
+  "tests/test_generate_icons.py": {
+    "mi": 73.57922320647964,
+    "rank": "A"
+  },
+  "tests/test_graph_fact_hygiene.py": {
+    "mi": 46.137247172365704,
+    "rank": "A"
+  },
+  "tests/test_graph_memory.py": {
+    "mi": 13.455914903035692,
+    "rank": "B"
+  },
+  "tests/test_graph_memory_tools.py": {
+    "mi": 48.48135848719771,
+    "rank": "A"
+  },
+  "tests/test_graph_mutation_listener.py": {
+    "mi": 51.738322129540244,
+    "rank": "A"
+  },
+  "tests/test_graph_ops.py": {
+    "mi": 0.29294243697381867,
+    "rank": "C"
+  },
+  "tests/test_graph_timing_context.py": {
+    "mi": 65.93097563709513,
+    "rank": "A"
+  },
+  "tests/test_greeting_no_tools.py": {
+    "mi": 56.053140803731125,
+    "rank": "A"
+  },
+  "tests/test_hot_window_input.py": {
+    "mi": 20.86140484221553,
+    "rank": "A"
+  },
+  "tests/test_hot_window_timer_ownership.py": {
+    "mi": 31.484081499417087,
+    "rank": "A"
+  },
+  "tests/test_hybrid_memory_search.py": {
+    "mi": 46.498772874325205,
+    "rank": "A"
+  },
+  "tests/test_install_cuda.py": {
+    "mi": 46.275428960984534,
+    "rank": "A"
+  },
+  "tests/test_intent_judge.py": {
+    "mi": 7.758552440452021,
+    "rank": "C"
+  },
+  "tests/test_listening_ux_overhaul.py": {
+    "mi": 43.07831898723657,
+    "rank": "A"
+  },
+  "tests/test_llm_arguments_encoding.py": {
+    "mi": 51.10329283694816,
+    "rank": "A"
+  },
+  "tests/test_llm_backend.py": {
+    "mi": 9.004120998488625,
+    "rank": "B"
+  },
+  "tests/test_llm_factory.py": {
+    "mi": 48.15142056375613,
+    "rank": "A"
+  },
+  "tests/test_llm_gpt_oss_thinking.py": {
+    "mi": 47.82819609889746,
+    "rank": "A"
+  },
+  "tests/test_llm_openai_compatible.py": {
+    "mi": 17.682999903518372,
+    "rank": "B"
+  },
+  "tests/test_llm_thinking.py": {
+    "mi": 39.3180389816717,
+    "rank": "A"
+  },
+  "tests/test_llm_timeout_diagnostics.py": {
+    "mi": 34.121704156566864,
+    "rank": "A"
+  },
+  "tests/test_local_files_boolean_arguments.py": {
+    "mi": 49.45694254855687,
+    "rank": "A"
+  },
+  "tests/test_local_files_glob_confinement.py": {
+    "mi": 26.558530616116567,
+    "rank": "A"
+  },
+  "tests/test_local_files_path_arguments.py": {
+    "mi": 50.58546076316957,
+    "rank": "A"
+  },
+  "tests/test_location_context.py": {
+    "mi": 66.55896994503405,
+    "rank": "A"
+  },
+  "tests/test_log_progress.py": {
+    "mi": 26.35563545937805,
+    "rank": "A"
+  },
+  "tests/test_low_confidence_events.py": {
+    "mi": 28.270564208911324,
+    "rank": "A"
+  },
+  "tests/test_low_confidence_feedback.py": {
+    "mi": 27.7099138029117,
+    "rank": "A"
+  },
+  "tests/test_macos_crash_report.py": {
+    "mi": 46.49740719379729,
+    "rank": "A"
+  },
+  "tests/test_macos_hotkey_integration.py": {
+    "mi": 59.33332550292357,
+    "rank": "A"
+  },
+  "tests/test_macos_hotkey_startup.py": {
+    "mi": 44.561618248718105,
+    "rank": "A"
+  },
+  "tests/test_macos_tray_guard.py": {
+    "mi": 54.58929973338758,
+    "rank": "A"
+  },
+  "tests/test_macos_tray_integration.py": {
+    "mi": 49.04848334988027,
+    "rank": "A"
+  },
+  "tests/test_max_turn_digest_generation_budget.py": {
+    "mi": 53.892640091088275,
+    "rank": "A"
+  },
+  "tests/test_mcp_catalogue.py": {
+    "mi": 53.205566424948294,
+    "rank": "A"
+  },
+  "tests/test_mcp_client.py": {
+    "mi": 30.749752085864845,
+    "rank": "A"
+  },
+  "tests/test_mcp_discovery.py": {
+    "mi": 40.44832344618637,
+    "rank": "A"
+  },
+  "tests/test_mcp_e2e.py": {
+    "mi": 58.89919332810082,
+    "rank": "A"
+  },
+  "tests/test_mcp_integration.py": {
+    "mi": 61.32045227353378,
+    "rank": "A"
+  },
+  "tests/test_memory_digest_generation_budget.py": {
+    "mi": 52.85601444065022,
+    "rank": "A"
+  },
+  "tests/test_memory_recall_generation_budget.py": {
+    "mi": 54.89794490756854,
+    "rank": "A"
+  },
+  "tests/test_memory_viewer_diary_optimise_api.py": {
+    "mi": 53.75298317778215,
+    "rank": "A"
+  },
+  "tests/test_memory_viewer_diary_scrub_api.py": {
+    "mi": 63.06771896667791,
+    "rank": "A"
+  },
+  "tests/test_memory_viewer_graph_api.py": {
+    "mi": 66.56139542222273,
+    "rank": "A"
+  },
+  "tests/test_missing_portaudio.py": {
+    "mi": 83.3630149103826,
+    "rank": "A"
+  },
+  "tests/test_mlx_bundle.py": {
+    "mi": 49.589007249899936,
+    "rank": "A"
+  },
+  "tests/test_mlx_bundle_integration.py": {
+    "mi": 49.90374785859835,
+    "rank": "A"
+  },
+  "tests/test_model_budget_selection.py": {
+    "mi": 45.260878402889276,
+    "rank": "A"
+  },
+  "tests/test_model_tiers.py": {
+    "mi": 53.839069635004236,
+    "rank": "A"
+  },
+  "tests/test_nonblocking_voice_capture.py": {
+    "mi": 21.20864283866772,
+    "rank": "A"
+  },
+  "tests/test_openai_compatible_e2e.py": {
+    "mi": 39.04720901912038,
+    "rank": "A"
+  },
+  "tests/test_piper_download_recovery.py": {
+    "mi": 30.04897316793016,
+    "rank": "A"
+  },
+  "tests/test_piper_tts.py": {
+    "mi": 20.225432821645676,
+    "rank": "A"
+  },
+  "tests/test_planner.py": {
+    "mi": 16.524378380631052,
+    "rank": "B"
+  },
+  "tests/test_planner_complete_arguments.py": {
+    "mi": 48.2623630256777,
+    "rank": "A"
+  },
+  "tests/test_planner_dialogue_window.py": {
+    "mi": 43.2172897900219,
+    "rank": "A"
+  },
+  "tests/test_planner_generation_budget.py": {
+    "mi": 51.43269366277672,
+    "rank": "A"
+  },
+  "tests/test_planner_required_arguments.py": {
+    "mi": 41.15367478480566,
+    "rank": "A"
+  },
+  "tests/test_planner_typed_arguments.py": {
+    "mi": 44.49432494443116,
+    "rank": "A"
+  },
+  "tests/test_planner_url_arguments.py": {
+    "mi": 56.80809846225989,
+    "rank": "A"
+  },
+  "tests/test_portaudio_serialisation.py": {
+    "mi": 48.6015742808286,
+    "rank": "A"
+  },
+  "tests/test_prompts.py": {
+    "mi": 58.829229714108635,
+    "rank": "A"
+  },
+  "tests/test_prompt_dump.py": {
+    "mi": 60.8414691425023,
+    "rank": "A"
+  },
+  "tests/test_provider_model_resolution.py": {
+    "mi": 60.629534727727446,
+    "rank": "A"
+  },
+  "tests/test_qt_fixture_lifecycle.py": {
+    "mi": 61.559466005358985,
+    "rank": "A"
+  },
+  "tests/test_query_validation.py": {
+    "mi": 39.2495274559283,
+    "rank": "A"
+  },
+  "tests/test_readme_presentation.py": {
+    "mi": 42.482030509263424,
+    "rank": "A"
+  },
+  "tests/test_recall_gate.py": {
+    "mi": 75.27676747039709,
+    "rank": "A"
+  },
+  "tests/test_redact_extended.py": {
+    "mi": 47.84381824066265,
+    "rank": "A"
+  },
+  "tests/test_review_478_defects.py": {
+    "mi": 60.90671288296815,
+    "rank": "A"
+  },
+  "tests/test_settings_window.py": {
+    "mi": 17.41295277321383,
+    "rank": "B"
+  },
+  "tests/test_setup_wizard.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/test_setup_wizard_install_chain.py": {
+    "mi": 94.32797326299259,
+    "rank": "A"
+  },
+  "tests/test_short_query_echo.py": {
+    "mi": 68.05110825255888,
+    "rank": "A"
+  },
+  "tests/test_splash_screen.py": {
+    "mi": 66.98884422614475,
+    "rank": "A"
+  },
+  "tests/test_state_manager.py": {
+    "mi": 28.576981777538894,
+    "rank": "A"
+  },
+  "tests/test_stop_command_echo.py": {
+    "mi": 50.02884531587762,
+    "rank": "A"
+  },
+  "tests/test_system_prompt.py": {
+    "mi": 86.22512101957547,
+    "rank": "A"
+  },
+  "tests/test_text_tool_call_parser.py": {
+    "mi": 57.49108545268554,
+    "rank": "A"
+  },
+  "tests/test_time_context.py": {
+    "mi": 81.34233479209931,
+    "rank": "A"
+  },
+  "tests/test_tools.py": {
+    "mi": 46.12698041670534,
+    "rank": "A"
+  },
+  "tests/test_tool_digest_generation_budget.py": {
+    "mi": 52.14933882073894,
+    "rank": "A"
+  },
+  "tests/test_tool_router_resolution.py": {
+    "mi": 80.96451511553427,
+    "rank": "A"
+  },
+  "tests/test_tool_search_tool.py": {
+    "mi": 58.31141695044321,
+    "rank": "A"
+  },
+  "tests/test_tool_selection.py": {
+    "mi": 26.985953466595344,
+    "rank": "A"
+  },
+  "tests/test_transcript_buffer.py": {
+    "mi": 14.613649934669196,
+    "rank": "B"
+  },
+  "tests/test_tts_preprocessing.py": {
+    "mi": 29.17838615327529,
+    "rank": "A"
+  },
+  "tests/test_tts_startup_status.py": {
+    "mi": 41.81091077770949,
+    "rank": "A"
+  },
+  "tests/test_tune_player.py": {
+    "mi": 51.236195742123726,
+    "rank": "A"
+  },
+  "tests/test_updater.py": {
+    "mi": 0.044535320746130626,
+    "rank": "C"
+  },
+  "tests/test_vector_store_isolation.py": {
+    "mi": 36.55860773560423,
+    "rank": "A"
+  },
+  "tests/test_vector_validation.py": {
+    "mi": 41.54401021894933,
+    "rank": "A"
+  },
+  "tests/test_vector_write_failure.py": {
+    "mi": 49.73670896117287,
+    "rank": "A"
+  },
+  "tests/test_voice_listener.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/test_vram.py": {
+    "mi": 40.68512004758762,
+    "rank": "A"
+  },
+  "tests/test_wake_alias_boundaries.py": {
+    "mi": 57.068174005870816,
+    "rank": "A"
+  },
+  "tests/test_wake_detection.py": {
+    "mi": 54.02071458229193,
+    "rank": "A"
+  },
+  "tests/test_web_search_response_lifecycle.py": {
+    "mi": 35.10012373485723,
+    "rank": "A"
+  },
+  "tests/test_whisper_performance_guidance.py": {
+    "mi": 44.85010945569801,
+    "rank": "A"
+  },
+  "tests/test_whisper_pre_download.py": {
+    "mi": 27.06248169834834,
+    "rank": "A"
+  },
+  "tests/test_whisper_runtime_recovery.py": {
+    "mi": 39.73457526984897,
+    "rank": "A"
+  },
+  "tests/test_wizard_layout.py": {
+    "mi": 39.545053522119275,
+    "rank": "A"
+  },
+  "tests/fixtures/macos_hotkey_probe.py": {
+    "mi": 65.8565868068129,
+    "rank": "A"
+  },
+  "tests/fixtures/macos_tray_probe.py": {
+    "mi": 47.33299784780575,
+    "rank": "A"
+  },
+  "tests/fixtures/mlx_bundle_probe.py": {
+    "mi": 72.5628052472173,
+    "rank": "A"
+  },
+  "tests/performance/test_pipeline_timings.py": {
+    "mi": 63.6280452771025,
+    "rank": "A"
+  },
+  "tests/performance/timing_recorder.py": {
+    "mi": 51.51823049257452,
+    "rank": "A"
+  },
+  "tests/performance/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/tools/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/tools/builtin/test_fetch_web_page.py": {
+    "mi": 43.81026966936775,
+    "rank": "A"
+  },
+  "tests/tools/builtin/test_local_files.py": {
+    "mi": 32.051467266567684,
+    "rank": "A"
+  },
+  "tests/tools/builtin/test_screenshot.py": {
+    "mi": 56.03989892959873,
+    "rank": "A"
+  },
+  "tests/tools/builtin/test_stop.py": {
+    "mi": 42.51503079438767,
+    "rank": "A"
+  },
+  "tests/tools/builtin/test_time_tool.py": {
+    "mi": 38.09285762675658,
+    "rank": "A"
+  },
+  "tests/tools/builtin/test_weather.py": {
+    "mi": 30.270392881213798,
+    "rank": "A"
+  },
+  "tests/tools/builtin/test_weather_place_punctuation.py": {
+    "mi": 43.894336620072195,
+    "rank": "A"
+  },
+  "tests/tools/builtin/test_web_search.py": {
+    "mi": 11.0379188272232,
+    "rank": "B"
+  },
+  "tests/tools/builtin/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/tools/builtin/nutrition/test_delete_meal.py": {
+    "mi": 56.35022218207897,
+    "rank": "A"
+  },
+  "tests/tools/builtin/nutrition/test_fetch_meals.py": {
+    "mi": 58.22183583445656,
+    "rank": "A"
+  },
+  "tests/tools/builtin/nutrition/test_log_meal.py": {
+    "mi": 53.76835277426598,
+    "rank": "A"
+  },
+  "tests/tools/builtin/nutrition/test_log_meal_generation.py": {
+    "mi": 45.79233564876541,
+    "rank": "A"
+  },
+  "tests/tools/builtin/nutrition/test_log_meal_persistence.py": {
+    "mi": 37.25354632486799,
+    "rank": "A"
+  },
+  "tests/tools/builtin/nutrition/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  }
+}

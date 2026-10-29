@@ -1,0 +1,2531 @@
+{
+  "src/__init__.py": {
+    "loc": 1,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 1,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 1
+  },
+  "src/desktop_app/app.py": {
+    "loc": 3777,
+    "lloc": 2246,
+    "sloc": 2583,
+    "comments": 410,
+    "multi": 184,
+    "blank": 554,
+    "single_comments": 456
+  },
+  "src/desktop_app/chat_window.py": {
+    "loc": 994,
+    "lloc": 536,
+    "sloc": 715,
+    "comments": 83,
+    "multi": 67,
+    "blank": 121,
+    "single_comments": 91
+  },
+  "src/desktop_app/cuda_recovery.py": {
+    "loc": 159,
+    "lloc": 80,
+    "sloc": 88,
+    "comments": 2,
+    "multi": 38,
+    "blank": 30,
+    "single_comments": 3
+  },
+  "src/desktop_app/diary_dialog.py": {
+    "loc": 228,
+    "lloc": 147,
+    "sloc": 135,
+    "comments": 22,
+    "multi": 20,
+    "blank": 41,
+    "single_comments": 32
+  },
+  "src/desktop_app/dictation_history.py": {
+    "loc": 410,
+    "lloc": 224,
+    "sloc": 270,
+    "comments": 44,
+    "multi": 20,
+    "blank": 66,
+    "single_comments": 54
+  },
+  "src/desktop_app/face_widget.py": {
+    "loc": 1117,
+    "lloc": 675,
+    "sloc": 690,
+    "comments": 274,
+    "multi": 40,
+    "blank": 192,
+    "single_comments": 195
+  },
+  "src/desktop_app/log_output.py": {
+    "loc": 72,
+    "lloc": 59,
+    "sloc": 53,
+    "comments": 0,
+    "multi": 0,
+    "blank": 16,
+    "single_comments": 3
+  },
+  "src/desktop_app/macos_tray.py": {
+    "loc": 61,
+    "lloc": 37,
+    "sloc": 47,
+    "comments": 2,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 4
+  },
+  "src/desktop_app/mcp_catalogue.py": {
+    "loc": 186,
+    "lloc": 44,
+    "sloc": 151,
+    "comments": 15,
+    "multi": 15,
+    "blank": 15,
+    "single_comments": 5
+  },
+  "src/desktop_app/memory_viewer.py": {
+    "loc": 3815,
+    "lloc": 559,
+    "sloc": 3189,
+    "comments": 46,
+    "multi": 60,
+    "blank": 500,
+    "single_comments": 66
+  },
+  "src/desktop_app/paths.py": {
+    "loc": 35,
+    "lloc": 21,
+    "sloc": 19,
+    "comments": 0,
+    "multi": 9,
+    "blank": 7,
+    "single_comments": 0
+  },
+  "src/desktop_app/qt_worker.py": {
+    "loc": 44,
+    "lloc": 13,
+    "sloc": 10,
+    "comments": 0,
+    "multi": 24,
+    "blank": 10,
+    "single_comments": 0
+  },
+  "src/desktop_app/rthook_onnxruntime.py": {
+    "loc": 38,
+    "lloc": 19,
+    "sloc": 18,
+    "comments": 4,
+    "multi": 10,
+    "blank": 6,
+    "single_comments": 4
+  },
+  "src/desktop_app/settings_window.py": {
+    "loc": 1267,
+    "lloc": 777,
+    "sloc": 980,
+    "comments": 73,
+    "multi": 15,
+    "blank": 181,
+    "single_comments": 91
+  },
+  "src/desktop_app/setup_wizard.py": {
+    "loc": 4221,
+    "lloc": 2853,
+    "sloc": 3134,
+    "comments": 245,
+    "multi": 136,
+    "blank": 635,
+    "single_comments": 316
+  },
+  "src/desktop_app/splash_screen.py": {
+    "loc": 204,
+    "lloc": 140,
+    "sloc": 135,
+    "comments": 17,
+    "multi": 5,
+    "blank": 39,
+    "single_comments": 25
+  },
+  "src/desktop_app/themes.py": {
+    "loc": 607,
+    "lloc": 37,
+    "sloc": 503,
+    "comments": 3,
+    "multi": 5,
+    "blank": 94,
+    "single_comments": 5
+  },
+  "src/desktop_app/updater.py": {
+    "loc": 675,
+    "lloc": 345,
+    "sloc": 420,
+    "comments": 51,
+    "multi": 78,
+    "blank": 120,
+    "single_comments": 57
+  },
+  "src/desktop_app/update_dialog.py": {
+    "loc": 675,
+    "lloc": 399,
+    "sloc": 509,
+    "comments": 27,
+    "multi": 17,
+    "blank": 113,
+    "single_comments": 36
+  },
+  "src/desktop_app/__init__.py": {
+    "loc": 53,
+    "lloc": 10,
+    "sloc": 38,
+    "comments": 4,
+    "multi": 5,
+    "blank": 6,
+    "single_comments": 4
+  },
+  "src/desktop_app/__main__.py": {
+    "loc": 6,
+    "lloc": 4,
+    "sloc": 3,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 1
+  },
+  "src/desktop_app/desktop_assets/generate_icons.py": {
+    "loc": 106,
+    "lloc": 48,
+    "sloc": 53,
+    "comments": 25,
+    "multi": 4,
+    "blank": 23,
+    "single_comments": 26
+  },
+  "src/jarvis/config.py": {
+    "loc": 1038,
+    "lloc": 549,
+    "sloc": 741,
+    "comments": 250,
+    "multi": 38,
+    "blank": 124,
+    "single_comments": 135
+  },
+  "src/jarvis/daemon.py": {
+    "loc": 1290,
+    "lloc": 740,
+    "sloc": 814,
+    "comments": 154,
+    "multi": 142,
+    "blank": 187,
+    "single_comments": 147
+  },
+  "src/jarvis/debug.py": {
+    "loc": 37,
+    "lloc": 30,
+    "sloc": 24,
+    "comments": 0,
+    "multi": 5,
+    "blank": 7,
+    "single_comments": 1
+  },
+  "src/jarvis/main.py": {
+    "loc": 13,
+    "lloc": 7,
+    "sloc": 5,
+    "comments": 0,
+    "multi": 5,
+    "blank": 3,
+    "single_comments": 0
+  },
+  "src/jarvis/system_prompt.py": {
+    "loc": 89,
+    "lloc": 7,
+    "sloc": 74,
+    "comments": 0,
+    "multi": 10,
+    "blank": 5,
+    "single_comments": 0
+  },
+  "src/jarvis/__init__.py": {
+    "loc": 82,
+    "lloc": 37,
+    "sloc": 34,
+    "comments": 20,
+    "multi": 15,
+    "blank": 13,
+    "single_comments": 20
+  },
+  "src/jarvis/dictation/dictation_engine.py": {
+    "loc": 1183,
+    "lloc": 729,
+    "sloc": 786,
+    "comments": 147,
+    "multi": 76,
+    "blank": 164,
+    "single_comments": 157
+  },
+  "src/jarvis/dictation/history.py": {
+    "loc": 120,
+    "lloc": 77,
+    "sloc": 71,
+    "comments": 9,
+    "multi": 15,
+    "blank": 20,
+    "single_comments": 14
+  },
+  "src/jarvis/dictation/__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "src/jarvis/listening/echo_detection.py": {
+    "loc": 580,
+    "lloc": 328,
+    "sloc": 291,
+    "comments": 94,
+    "multi": 88,
+    "blank": 105,
+    "single_comments": 96
+  },
+  "src/jarvis/listening/intent_judge.py": {
+    "loc": 565,
+    "lloc": 266,
+    "sloc": 354,
+    "comments": 55,
+    "multi": 83,
+    "blank": 82,
+    "single_comments": 46
+  },
+  "src/jarvis/listening/listener.py": {
+    "loc": 2930,
+    "lloc": 1906,
+    "sloc": 2116,
+    "comments": 364,
+    "multi": 108,
+    "blank": 323,
+    "single_comments": 383
+  },
+  "src/jarvis/listening/model_download.py": {
+    "loc": 149,
+    "lloc": 123,
+    "sloc": 119,
+    "comments": 0,
+    "multi": 0,
+    "blank": 22,
+    "single_comments": 8
+  },
+  "src/jarvis/listening/state_manager.py": {
+    "loc": 519,
+    "lloc": 330,
+    "sloc": 297,
+    "comments": 40,
+    "multi": 85,
+    "blank": 94,
+    "single_comments": 43
+  },
+  "src/jarvis/listening/transcript_buffer.py": {
+    "loc": 379,
+    "lloc": 188,
+    "sloc": 175,
+    "comments": 8,
+    "multi": 107,
+    "blank": 84,
+    "single_comments": 13
+  },
+  "src/jarvis/listening/wake_detection.py": {
+    "loc": 124,
+    "lloc": 77,
+    "sloc": 71,
+    "comments": 5,
+    "multi": 18,
+    "blank": 26,
+    "single_comments": 9
+  },
+  "src/jarvis/listening/__init__.py": {
+    "loc": 49,
+    "lloc": 12,
+    "sloc": 37,
+    "comments": 0,
+    "multi": 5,
+    "blank": 6,
+    "single_comments": 1
+  },
+  "src/jarvis/llm/backend.py": {
+    "loc": 163,
+    "lloc": 43,
+    "sloc": 73,
+    "comments": 7,
+    "multi": 61,
+    "blank": 22,
+    "single_comments": 7
+  },
+  "src/jarvis/llm/errors.py": {
+    "loc": 25,
+    "lloc": 17,
+    "sloc": 15,
+    "comments": 0,
+    "multi": 5,
+    "blank": 4,
+    "single_comments": 1
+  },
+  "src/jarvis/llm/factory.py": {
+    "loc": 92,
+    "lloc": 48,
+    "sloc": 49,
+    "comments": 0,
+    "multi": 23,
+    "blank": 20,
+    "single_comments": 0
+  },
+  "src/jarvis/llm/ollama.py": {
+    "loc": 409,
+    "lloc": 212,
+    "sloc": 283,
+    "comments": 15,
+    "multi": 61,
+    "blank": 46,
+    "single_comments": 19
+  },
+  "src/jarvis/llm/openai_compatible.py": {
+    "loc": 513,
+    "lloc": 283,
+    "sloc": 363,
+    "comments": 35,
+    "multi": 64,
+    "blank": 50,
+    "single_comments": 36
+  },
+  "src/jarvis/llm/tiers.py": {
+    "loc": 46,
+    "lloc": 13,
+    "sloc": 10,
+    "comments": 0,
+    "multi": 23,
+    "blank": 12,
+    "single_comments": 1
+  },
+  "src/jarvis/llm/__init__.py": {
+    "loc": 119,
+    "lloc": 19,
+    "sloc": 79,
+    "comments": 1,
+    "multi": 24,
+    "blank": 14,
+    "single_comments": 2
+  },
+  "src/jarvis/memory/conversation.py": {
+    "loc": 1978,
+    "lloc": 901,
+    "sloc": 1221,
+    "comments": 256,
+    "multi": 252,
+    "blank": 253,
+    "single_comments": 252
+  },
+  "src/jarvis/memory/db.py": {
+    "loc": 447,
+    "lloc": 208,
+    "sloc": 376,
+    "comments": 13,
+    "multi": 10,
+    "blank": 43,
+    "single_comments": 18
+  },
+  "src/jarvis/memory/graph.py": {
+    "loc": 820,
+    "lloc": 377,
+    "sloc": 522,
+    "comments": 67,
+    "multi": 103,
+    "blank": 121,
+    "single_comments": 74
+  },
+  "src/jarvis/memory/graph_ops.py": {
+    "loc": 1269,
+    "lloc": 438,
+    "sloc": 832,
+    "comments": 114,
+    "multi": 167,
+    "blank": 159,
+    "single_comments": 111
+  },
+  "src/jarvis/memory/recall_gate.py": {
+    "loc": 96,
+    "lloc": 44,
+    "sloc": 60,
+    "comments": 7,
+    "multi": 15,
+    "blank": 14,
+    "single_comments": 7
+  },
+  "src/jarvis/memory/__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "src/jarvis/output/tts.py": {
+    "loc": 1068,
+    "lloc": 683,
+    "sloc": 718,
+    "comments": 113,
+    "multi": 74,
+    "blank": 171,
+    "single_comments": 105
+  },
+  "src/jarvis/output/tune_player.py": {
+    "loc": 285,
+    "lloc": 188,
+    "sloc": 182,
+    "comments": 18,
+    "multi": 40,
+    "blank": 48,
+    "single_comments": 15
+  },
+  "src/jarvis/output/__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "src/jarvis/reply/compound_query.py": {
+    "loc": 169,
+    "lloc": 42,
+    "sloc": 92,
+    "comments": 62,
+    "multi": 30,
+    "blank": 21,
+    "single_comments": 26
+  },
+  "src/jarvis/reply/engine.py": {
+    "loc": 2559,
+    "lloc": 1222,
+    "sloc": 1702,
+    "comments": 498,
+    "multi": 155,
+    "blank": 211,
+    "single_comments": 491
+  },
+  "src/jarvis/reply/enrichment.py": {
+    "loc": 903,
+    "lloc": 323,
+    "sloc": 643,
+    "comments": 69,
+    "multi": 87,
+    "blank": 103,
+    "single_comments": 70
+  },
+  "src/jarvis/reply/evaluator.py": {
+    "loc": 410,
+    "lloc": 162,
+    "sloc": 312,
+    "comments": 7,
+    "multi": 52,
+    "blank": 39,
+    "single_comments": 7
+  },
+  "src/jarvis/reply/planner.py": {
+    "loc": 909,
+    "lloc": 375,
+    "sloc": 606,
+    "comments": 67,
+    "multi": 136,
+    "blank": 102,
+    "single_comments": 65
+  },
+  "src/jarvis/reply/prompt_dump.py": {
+    "loc": 95,
+    "lloc": 38,
+    "sloc": 56,
+    "comments": 3,
+    "multi": 18,
+    "blank": 17,
+    "single_comments": 4
+  },
+  "src/jarvis/reply/__init__.py": {
+    "loc": 9,
+    "lloc": 4,
+    "sloc": 6,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 1
+  },
+  "src/jarvis/reply/prompts/model_variants.py": {
+    "loc": 296,
+    "lloc": 43,
+    "sloc": 169,
+    "comments": 61,
+    "multi": 25,
+    "blank": 44,
+    "single_comments": 58
+  },
+  "src/jarvis/reply/prompts/system.py": {
+    "loc": 66,
+    "lloc": 27,
+    "sloc": 43,
+    "comments": 4,
+    "multi": 9,
+    "blank": 10,
+    "single_comments": 4
+  },
+  "src/jarvis/reply/prompts/__init__.py": {
+    "loc": 19,
+    "lloc": 4,
+    "sloc": 11,
+    "comments": 0,
+    "multi": 5,
+    "blank": 3,
+    "single_comments": 0
+  },
+  "src/jarvis/tools/base.py": {
+    "loc": 116,
+    "lloc": 40,
+    "sloc": 62,
+    "comments": 5,
+    "multi": 27,
+    "blank": 18,
+    "single_comments": 9
+  },
+  "src/jarvis/tools/http_response.py": {
+    "loc": 12,
+    "lloc": 9,
+    "sloc": 7,
+    "comments": 0,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 2
+  },
+  "src/jarvis/tools/registry.py": {
+    "loc": 372,
+    "lloc": 221,
+    "sloc": 250,
+    "comments": 28,
+    "multi": 37,
+    "blank": 59,
+    "single_comments": 26
+  },
+  "src/jarvis/tools/selection.py": {
+    "loc": 440,
+    "lloc": 189,
+    "sloc": 269,
+    "comments": 59,
+    "multi": 38,
+    "blank": 68,
+    "single_comments": 65
+  },
+  "src/jarvis/tools/types.py": {
+    "loc": 12,
+    "lloc": 12,
+    "sloc": 7,
+    "comments": 0,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 2
+  },
+  "src/jarvis/tools/__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "src/jarvis/tools/builtin/fetch_web_page.py": {
+    "loc": 151,
+    "lloc": 132,
+    "sloc": 137,
+    "comments": 3,
+    "multi": 0,
+    "blank": 9,
+    "single_comments": 5
+  },
+  "src/jarvis/tools/builtin/local_files.py": {
+    "loc": 192,
+    "lloc": 151,
+    "sloc": 156,
+    "comments": 10,
+    "multi": 0,
+    "blank": 24,
+    "single_comments": 12
+  },
+  "src/jarvis/tools/builtin/refresh_mcp_tools.py": {
+    "loc": 93,
+    "lloc": 52,
+    "sloc": 66,
+    "comments": 4,
+    "multi": 4,
+    "blank": 17,
+    "single_comments": 6
+  },
+  "src/jarvis/tools/builtin/screenshot.py": {
+    "loc": 69,
+    "lloc": 59,
+    "sloc": 58,
+    "comments": 5,
+    "multi": 0,
+    "blank": 6,
+    "single_comments": 5
+  },
+  "src/jarvis/tools/builtin/stop.py": {
+    "loc": 51,
+    "lloc": 22,
+    "sloc": 31,
+    "comments": 2,
+    "multi": 5,
+    "blank": 11,
+    "single_comments": 4
+  },
+  "src/jarvis/tools/builtin/time_tool.py": {
+    "loc": 223,
+    "lloc": 114,
+    "sloc": 167,
+    "comments": 12,
+    "multi": 17,
+    "blank": 27,
+    "single_comments": 12
+  },
+  "src/jarvis/tools/builtin/tool_search.py": {
+    "loc": 138,
+    "lloc": 63,
+    "sloc": 112,
+    "comments": 3,
+    "multi": 5,
+    "blank": 17,
+    "single_comments": 4
+  },
+  "src/jarvis/tools/builtin/weather.py": {
+    "loc": 432,
+    "lloc": 217,
+    "sloc": 313,
+    "comments": 42,
+    "multi": 13,
+    "blank": 62,
+    "single_comments": 44
+  },
+  "src/jarvis/tools/builtin/web_search.py": {
+    "loc": 1066,
+    "lloc": 498,
+    "sloc": 718,
+    "comments": 198,
+    "multi": 75,
+    "blank": 78,
+    "single_comments": 195
+  },
+  "src/jarvis/tools/builtin/__init__.py": {
+    "loc": 33,
+    "lloc": 12,
+    "sloc": 23,
+    "comments": 3,
+    "multi": 4,
+    "blank": 4,
+    "single_comments": 2
+  },
+  "src/jarvis/tools/builtin/nutrition/delete_meal.py": {
+    "loc": 48,
+    "lloc": 35,
+    "sloc": 37,
+    "comments": 0,
+    "multi": 0,
+    "blank": 8,
+    "single_comments": 3
+  },
+  "src/jarvis/tools/builtin/nutrition/fetch_meals.py": {
+    "loc": 111,
+    "lloc": 93,
+    "sloc": 91,
+    "comments": 3,
+    "multi": 0,
+    "blank": 12,
+    "single_comments": 8
+  },
+  "src/jarvis/tools/builtin/nutrition/log_meal.py": {
+    "loc": 258,
+    "lloc": 139,
+    "sloc": 190,
+    "comments": 15,
+    "multi": 18,
+    "blank": 31,
+    "single_comments": 19
+  },
+  "src/jarvis/tools/builtin/nutrition/__init__.py": {
+    "loc": 14,
+    "lloc": 5,
+    "sloc": 8,
+    "comments": 0,
+    "multi": 3,
+    "blank": 3,
+    "single_comments": 0
+  },
+  "src/jarvis/tools/external/mcp_client.py": {
+    "loc": 344,
+    "lloc": 189,
+    "sloc": 204,
+    "comments": 45,
+    "multi": 49,
+    "blank": 51,
+    "single_comments": 40
+  },
+  "src/jarvis/tools/external/mcp_runtime.py": {
+    "loc": 557,
+    "lloc": 297,
+    "sloc": 364,
+    "comments": 54,
+    "multi": 93,
+    "blank": 50,
+    "single_comments": 50
+  },
+  "src/jarvis/tools/external/__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "src/jarvis/utils/audio_capture.py": {
+    "loc": 90,
+    "lloc": 65,
+    "sloc": 74,
+    "comments": 0,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 5
+  },
+  "src/jarvis/utils/audio_lock.py": {
+    "loc": 33,
+    "lloc": 3,
+    "sloc": 2,
+    "comments": 1,
+    "multi": 25,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "src/jarvis/utils/embedding_vector.py": {
+    "loc": 20,
+    "lloc": 17,
+    "sloc": 15,
+    "comments": 1,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 3
+  },
+  "src/jarvis/utils/fast_vector_store.py": {
+    "loc": 252,
+    "lloc": 171,
+    "sloc": 167,
+    "comments": 26,
+    "multi": 8,
+    "blank": 43,
+    "single_comments": 34
+  },
+  "src/jarvis/utils/fuzzy_search.py": {
+    "loc": 141,
+    "lloc": 78,
+    "sloc": 72,
+    "comments": 21,
+    "multi": 17,
+    "blank": 31,
+    "single_comments": 21
+  },
+  "src/jarvis/utils/location.py": {
+    "loc": 691,
+    "lloc": 432,
+    "sloc": 464,
+    "comments": 66,
+    "multi": 48,
+    "blank": 105,
+    "single_comments": 74
+  },
+  "src/jarvis/utils/redact.py": {
+    "loc": 55,
+    "lloc": 19,
+    "sloc": 42,
+    "comments": 9,
+    "multi": 4,
+    "blank": 6,
+    "single_comments": 3
+  },
+  "src/jarvis/utils/time_context.py": {
+    "loc": 50,
+    "lloc": 27,
+    "sloc": 29,
+    "comments": 3,
+    "multi": 10,
+    "blank": 11,
+    "single_comments": 0
+  },
+  "src/jarvis/utils/vector_persistence.py": {
+    "loc": 36,
+    "lloc": 24,
+    "sloc": 31,
+    "comments": 0,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 2
+  },
+  "src/jarvis/utils/vector_store.py": {
+    "loc": 158,
+    "lloc": 119,
+    "sloc": 109,
+    "comments": 10,
+    "multi": 8,
+    "blank": 23,
+    "single_comments": 18
+  },
+  "src/jarvis/utils/vram.py": {
+    "loc": 344,
+    "lloc": 156,
+    "sloc": 187,
+    "comments": 48,
+    "multi": 48,
+    "blank": 65,
+    "single_comments": 44
+  },
+  "src/jarvis/utils/__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "tests/conftest.py": {
+    "loc": 191,
+    "lloc": 177,
+    "sloc": 119,
+    "comments": 29,
+    "multi": 16,
+    "blank": 22,
+    "single_comments": 34
+  },
+  "tests/test_audio_capture_pipeline.py": {
+    "loc": 816,
+    "lloc": 646,
+    "sloc": 666,
+    "comments": 1,
+    "multi": 0,
+    "blank": 148,
+    "single_comments": 2
+  },
+  "tests/test_chat_submission.py": {
+    "loc": 798,
+    "lloc": 538,
+    "sloc": 556,
+    "comments": 21,
+    "multi": 72,
+    "blank": 138,
+    "single_comments": 32
+  },
+  "tests/test_chat_window.py": {
+    "loc": 1053,
+    "lloc": 746,
+    "sloc": 803,
+    "comments": 21,
+    "multi": 37,
+    "blank": 182,
+    "single_comments": 31
+  },
+  "tests/test_compound_query.py": {
+    "loc": 239,
+    "lloc": 111,
+    "sloc": 166,
+    "comments": 18,
+    "multi": 14,
+    "blank": 33,
+    "single_comments": 26
+  },
+  "tests/test_config_atomic_save.py": {
+    "loc": 105,
+    "lloc": 71,
+    "sloc": 58,
+    "comments": 1,
+    "multi": 8,
+    "blank": 35,
+    "single_comments": 4
+  },
+  "tests/test_config_mcps.py": {
+    "loc": 36,
+    "lloc": 16,
+    "sloc": 28,
+    "comments": 2,
+    "multi": 0,
+    "blank": 6,
+    "single_comments": 2
+  },
+  "tests/test_config_models.py": {
+    "loc": 238,
+    "lloc": 152,
+    "sloc": 132,
+    "comments": 3,
+    "multi": 21,
+    "blank": 55,
+    "single_comments": 30
+  },
+  "tests/test_config_path_expansion.py": {
+    "loc": 120,
+    "lloc": 72,
+    "sloc": 64,
+    "comments": 0,
+    "multi": 12,
+    "blank": 37,
+    "single_comments": 7
+  },
+  "tests/test_desktop_app.py": {
+    "loc": 1965,
+    "lloc": 1097,
+    "sloc": 1303,
+    "comments": 110,
+    "multi": 95,
+    "blank": 396,
+    "single_comments": 171
+  },
+  "tests/test_desktop_keepalive_workers.py": {
+    "loc": 184,
+    "lloc": 50,
+    "sloc": 117,
+    "comments": 2,
+    "multi": 25,
+    "blank": 40,
+    "single_comments": 2
+  },
+  "tests/test_dialogue_memory.py": {
+    "loc": 720,
+    "lloc": 417,
+    "sloc": 484,
+    "comments": 77,
+    "multi": 3,
+    "blank": 132,
+    "single_comments": 101
+  },
+  "tests/test_dialogue_memory_hot_cache.py": {
+    "loc": 177,
+    "lloc": 119,
+    "sloc": 113,
+    "comments": 12,
+    "multi": 24,
+    "blank": 29,
+    "single_comments": 11
+  },
+  "tests/test_dialogue_memory_tool_carryover.py": {
+    "loc": 282,
+    "lloc": 136,
+    "sloc": 224,
+    "comments": 6,
+    "multi": 26,
+    "blank": 24,
+    "single_comments": 8
+  },
+  "tests/test_diary_embedding_failure.py": {
+    "loc": 117,
+    "lloc": 91,
+    "sloc": 97,
+    "comments": 2,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 3
+  },
+  "tests/test_diary_embedding_freshness.py": {
+    "loc": 165,
+    "lloc": 141,
+    "sloc": 145,
+    "comments": 0,
+    "multi": 0,
+    "blank": 19,
+    "single_comments": 1
+  },
+  "tests/test_diary_enrichment_flow.py": {
+    "loc": 347,
+    "lloc": 134,
+    "sloc": 235,
+    "comments": 25,
+    "multi": 21,
+    "blank": 62,
+    "single_comments": 29
+  },
+  "tests/test_diary_fallback_index.py": {
+    "loc": 100,
+    "lloc": 91,
+    "sloc": 87,
+    "comments": 1,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 2
+  },
+  "tests/test_diary_generation_budget.py": {
+    "loc": 36,
+    "lloc": 30,
+    "sloc": 30,
+    "comments": 0,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "tests/test_diary_graph_logging.py": {
+    "loc": 131,
+    "lloc": 54,
+    "sloc": 75,
+    "comments": 1,
+    "multi": 28,
+    "blank": 23,
+    "single_comments": 5
+  },
+  "tests/test_diary_import.py": {
+    "loc": 290,
+    "lloc": 172,
+    "sloc": 186,
+    "comments": 31,
+    "multi": 7,
+    "blank": 61,
+    "single_comments": 36
+  },
+  "tests/test_diary_pending_batches.py": {
+    "loc": 325,
+    "lloc": 274,
+    "sloc": 284,
+    "comments": 0,
+    "multi": 0,
+    "blank": 40,
+    "single_comments": 1
+  },
+  "tests/test_diary_poisoning_defence.py": {
+    "loc": 268,
+    "lloc": 85,
+    "sloc": 152,
+    "comments": 22,
+    "multi": 51,
+    "blank": 37,
+    "single_comments": 28
+  },
+  "tests/test_diary_rewrite_sweep.py": {
+    "loc": 364,
+    "lloc": 188,
+    "sloc": 239,
+    "comments": 10,
+    "multi": 51,
+    "blank": 66,
+    "single_comments": 8
+  },
+  "tests/test_diary_summary_identity.py": {
+    "loc": 201,
+    "lloc": 158,
+    "sloc": 173,
+    "comments": 0,
+    "multi": 0,
+    "blank": 27,
+    "single_comments": 1
+  },
+  "tests/test_diary_topic_optimise.py": {
+    "loc": 326,
+    "lloc": 177,
+    "sloc": 214,
+    "comments": 16,
+    "multi": 12,
+    "blank": 76,
+    "single_comments": 24
+  },
+  "tests/test_dictation.py": {
+    "loc": 1205,
+    "lloc": 800,
+    "sloc": 815,
+    "comments": 106,
+    "multi": 33,
+    "blank": 224,
+    "single_comments": 133
+  },
+  "tests/test_dictation_history.py": {
+    "loc": 629,
+    "lloc": 384,
+    "sloc": 414,
+    "comments": 47,
+    "multi": 52,
+    "blank": 114,
+    "single_comments": 49
+  },
+  "tests/test_echo_detection.py": {
+    "loc": 853,
+    "lloc": 419,
+    "sloc": 492,
+    "comments": 73,
+    "multi": 93,
+    "blank": 169,
+    "single_comments": 99
+  },
+  "tests/test_embedding_timeout_wiring.py": {
+    "loc": 91,
+    "lloc": 30,
+    "sloc": 48,
+    "comments": 1,
+    "multi": 25,
+    "blank": 18,
+    "single_comments": 0
+  },
+  "tests/test_engine_hot_window_caches.py": {
+    "loc": 307,
+    "lloc": 174,
+    "sloc": 212,
+    "comments": 9,
+    "multi": 43,
+    "blank": 43,
+    "single_comments": 9
+  },
+  "tests/test_engine_kv_cache.py": {
+    "loc": 232,
+    "lloc": 118,
+    "sloc": 162,
+    "comments": 5,
+    "multi": 25,
+    "blank": 42,
+    "single_comments": 3
+  },
+  "tests/test_engine_planner_integration.py": {
+    "loc": 733,
+    "lloc": 274,
+    "sloc": 531,
+    "comments": 35,
+    "multi": 43,
+    "blank": 133,
+    "single_comments": 26
+  },
+  "tests/test_engine_tool_carryover.py": {
+    "loc": 229,
+    "lloc": 109,
+    "sloc": 184,
+    "comments": 22,
+    "multi": 10,
+    "blank": 26,
+    "single_comments": 9
+  },
+  "tests/test_engine_tool_carryover_guard.py": {
+    "loc": 565,
+    "lloc": 267,
+    "sloc": 415,
+    "comments": 13,
+    "multi": 77,
+    "blank": 63,
+    "single_comments": 10
+  },
+  "tests/test_engine_tool_search_loop.py": {
+    "loc": 533,
+    "lloc": 193,
+    "sloc": 398,
+    "comments": 30,
+    "multi": 29,
+    "blank": 82,
+    "single_comments": 24
+  },
+  "tests/test_enrichment.py": {
+    "loc": 1024,
+    "lloc": 481,
+    "sloc": 766,
+    "comments": 51,
+    "multi": 32,
+    "blank": 164,
+    "single_comments": 62
+  },
+  "tests/test_enrichment_model_routing.py": {
+    "loc": 56,
+    "lloc": 26,
+    "sloc": 35,
+    "comments": 2,
+    "multi": 7,
+    "blank": 12,
+    "single_comments": 2
+  },
+  "tests/test_evaluator.py": {
+    "loc": 535,
+    "lloc": 219,
+    "sloc": 391,
+    "comments": 8,
+    "multi": 66,
+    "blank": 66,
+    "single_comments": 12
+  },
+  "tests/test_eval_backend_config.py": {
+    "loc": 297,
+    "lloc": 232,
+    "sloc": 264,
+    "comments": 0,
+    "multi": 0,
+    "blank": 31,
+    "single_comments": 2
+  },
+  "tests/test_eval_diary_config.py": {
+    "loc": 49,
+    "lloc": 45,
+    "sloc": 41,
+    "comments": 0,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 1
+  },
+  "tests/test_eval_helpers.py": {
+    "loc": 200,
+    "lloc": 65,
+    "sloc": 136,
+    "comments": 17,
+    "multi": 22,
+    "blank": 29,
+    "single_comments": 13
+  },
+  "tests/test_eval_max_turn_digest_contract.py": {
+    "loc": 33,
+    "lloc": 31,
+    "sloc": 27,
+    "comments": 0,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "tests/test_eval_memory_digest_contract.py": {
+    "loc": 76,
+    "lloc": 58,
+    "sloc": 64,
+    "comments": 0,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 1
+  },
+  "tests/test_eval_memory_digest_relevance_contract.py": {
+    "loc": 66,
+    "lloc": 36,
+    "sloc": 48,
+    "comments": 0,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 1
+  },
+  "tests/test_eval_memory_tool_grounding_contract.py": {
+    "loc": 148,
+    "lloc": 118,
+    "sloc": 115,
+    "comments": 1,
+    "multi": 0,
+    "blank": 32,
+    "single_comments": 1
+  },
+  "tests/test_eval_multi_turn_contract.py": {
+    "loc": 129,
+    "lloc": 105,
+    "sloc": 107,
+    "comments": 1,
+    "multi": 0,
+    "blank": 20,
+    "single_comments": 2
+  },
+  "tests/test_eval_nutrition_config.py": {
+    "loc": 67,
+    "lloc": 57,
+    "sloc": 55,
+    "comments": 0,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 1
+  },
+  "tests/test_eval_recall_parameter_contract.py": {
+    "loc": 52,
+    "lloc": 42,
+    "sloc": 44,
+    "comments": 0,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 1
+  },
+  "tests/test_eval_tool_digest_facts_contract.py": {
+    "loc": 51,
+    "lloc": 31,
+    "sloc": 37,
+    "comments": 0,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 1
+  },
+  "tests/test_face_widget.py": {
+    "loc": 398,
+    "lloc": 230,
+    "sloc": 224,
+    "comments": 43,
+    "multi": 37,
+    "blank": 90,
+    "single_comments": 47
+  },
+  "tests/test_factory_dispatch_wiring.py": {
+    "loc": 167,
+    "lloc": 88,
+    "sloc": 114,
+    "comments": 9,
+    "multi": 17,
+    "blank": 29,
+    "single_comments": 7
+  },
+  "tests/test_fetch_web_page_argument_types.py": {
+    "loc": 76,
+    "lloc": 64,
+    "sloc": 59,
+    "comments": 0,
+    "multi": 0,
+    "blank": 16,
+    "single_comments": 1
+  },
+  "tests/test_fetch_web_page_byte_limit.py": {
+    "loc": 125,
+    "lloc": 128,
+    "sloc": 115,
+    "comments": 0,
+    "multi": 0,
+    "blank": 9,
+    "single_comments": 1
+  },
+  "tests/test_fetch_web_page_decompression_memory.py": {
+    "loc": 65,
+    "lloc": 57,
+    "sloc": 56,
+    "comments": 0,
+    "multi": 0,
+    "blank": 8,
+    "single_comments": 1
+  },
+  "tests/test_frozen_env_guards.py": {
+    "loc": 65,
+    "lloc": 35,
+    "sloc": 41,
+    "comments": 1,
+    "multi": 10,
+    "blank": 9,
+    "single_comments": 5
+  },
+  "tests/test_generate_icons.py": {
+    "loc": 59,
+    "lloc": 38,
+    "sloc": 35,
+    "comments": 1,
+    "multi": 9,
+    "blank": 14,
+    "single_comments": 1
+  },
+  "tests/test_graph_fact_hygiene.py": {
+    "loc": 97,
+    "lloc": 48,
+    "sloc": 75,
+    "comments": 0,
+    "multi": 0,
+    "blank": 21,
+    "single_comments": 1
+  },
+  "tests/test_graph_memory.py": {
+    "loc": 608,
+    "lloc": 374,
+    "sloc": 420,
+    "comments": 34,
+    "multi": 19,
+    "blank": 118,
+    "single_comments": 51
+  },
+  "tests/test_graph_memory_tools.py": {
+    "loc": 151,
+    "lloc": 92,
+    "sloc": 100,
+    "comments": 4,
+    "multi": 4,
+    "blank": 37,
+    "single_comments": 10
+  },
+  "tests/test_graph_mutation_listener.py": {
+    "loc": 251,
+    "lloc": 167,
+    "sloc": 169,
+    "comments": 9,
+    "multi": 26,
+    "blank": 47,
+    "single_comments": 9
+  },
+  "tests/test_graph_ops.py": {
+    "loc": 1394,
+    "lloc": 642,
+    "sloc": 955,
+    "comments": 75,
+    "multi": 107,
+    "blank": 247,
+    "single_comments": 85
+  },
+  "tests/test_graph_timing_context.py": {
+    "loc": 22,
+    "lloc": 15,
+    "sloc": 16,
+    "comments": 0,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "tests/test_greeting_no_tools.py": {
+    "loc": 275,
+    "lloc": 123,
+    "sloc": 186,
+    "comments": 17,
+    "multi": 14,
+    "blank": 53,
+    "single_comments": 22
+  },
+  "tests/test_hot_window_input.py": {
+    "loc": 1598,
+    "lloc": 779,
+    "sloc": 933,
+    "comments": 129,
+    "multi": 153,
+    "blank": 343,
+    "single_comments": 169
+  },
+  "tests/test_hot_window_timer_ownership.py": {
+    "loc": 217,
+    "lloc": 176,
+    "sloc": 175,
+    "comments": 1,
+    "multi": 0,
+    "blank": 40,
+    "single_comments": 2
+  },
+  "tests/test_hybrid_memory_search.py": {
+    "loc": 119,
+    "lloc": 77,
+    "sloc": 95,
+    "comments": 1,
+    "multi": 0,
+    "blank": 22,
+    "single_comments": 2
+  },
+  "tests/test_install_cuda.py": {
+    "loc": 333,
+    "lloc": 167,
+    "sloc": 228,
+    "comments": 16,
+    "multi": 20,
+    "blank": 64,
+    "single_comments": 21
+  },
+  "tests/test_intent_judge.py": {
+    "loc": 1112,
+    "lloc": 566,
+    "sloc": 796,
+    "comments": 40,
+    "multi": 66,
+    "blank": 163,
+    "single_comments": 87
+  },
+  "tests/test_listening_ux_overhaul.py": {
+    "loc": 408,
+    "lloc": 211,
+    "sloc": 225,
+    "comments": 48,
+    "multi": 27,
+    "blank": 99,
+    "single_comments": 57
+  },
+  "tests/test_llm_arguments_encoding.py": {
+    "loc": 183,
+    "lloc": 87,
+    "sloc": 150,
+    "comments": 4,
+    "multi": 7,
+    "blank": 17,
+    "single_comments": 9
+  },
+  "tests/test_llm_backend.py": {
+    "loc": 983,
+    "lloc": 612,
+    "sloc": 663,
+    "comments": 36,
+    "multi": 35,
+    "blank": 250,
+    "single_comments": 35
+  },
+  "tests/test_llm_factory.py": {
+    "loc": 339,
+    "lloc": 173,
+    "sloc": 216,
+    "comments": 10,
+    "multi": 41,
+    "blank": 75,
+    "single_comments": 7
+  },
+  "tests/test_llm_gpt_oss_thinking.py": {
+    "loc": 92,
+    "lloc": 46,
+    "sloc": 72,
+    "comments": 0,
+    "multi": 0,
+    "blank": 19,
+    "single_comments": 1
+  },
+  "tests/test_llm_openai_compatible.py": {
+    "loc": 1055,
+    "lloc": 635,
+    "sloc": 710,
+    "comments": 42,
+    "multi": 59,
+    "blank": 234,
+    "single_comments": 52
+  },
+  "tests/test_llm_thinking.py": {
+    "loc": 318,
+    "lloc": 211,
+    "sloc": 209,
+    "comments": 18,
+    "multi": 9,
+    "blank": 71,
+    "single_comments": 29
+  },
+  "tests/test_llm_timeout_diagnostics.py": {
+    "loc": 136,
+    "lloc": 106,
+    "sloc": 111,
+    "comments": 0,
+    "multi": 0,
+    "blank": 23,
+    "single_comments": 2
+  },
+  "tests/test_local_files_boolean_arguments.py": {
+    "loc": 38,
+    "lloc": 36,
+    "sloc": 29,
+    "comments": 0,
+    "multi": 0,
+    "blank": 8,
+    "single_comments": 1
+  },
+  "tests/test_local_files_glob_confinement.py": {
+    "loc": 165,
+    "lloc": 142,
+    "sloc": 134,
+    "comments": 0,
+    "multi": 0,
+    "blank": 30,
+    "single_comments": 1
+  },
+  "tests/test_local_files_path_arguments.py": {
+    "loc": 45,
+    "lloc": 40,
+    "sloc": 41,
+    "comments": 0,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 1
+  },
+  "tests/test_location_context.py": {
+    "loc": 117,
+    "lloc": 54,
+    "sloc": 81,
+    "comments": 9,
+    "multi": 0,
+    "blank": 22,
+    "single_comments": 14
+  },
+  "tests/test_log_progress.py": {
+    "loc": 246,
+    "lloc": 208,
+    "sloc": 205,
+    "comments": 2,
+    "multi": 0,
+    "blank": 37,
+    "single_comments": 4
+  },
+  "tests/test_low_confidence_events.py": {
+    "loc": 233,
+    "lloc": 154,
+    "sloc": 185,
+    "comments": 0,
+    "multi": 0,
+    "blank": 46,
+    "single_comments": 2
+  },
+  "tests/test_low_confidence_feedback.py": {
+    "loc": 214,
+    "lloc": 183,
+    "sloc": 179,
+    "comments": 0,
+    "multi": 0,
+    "blank": 34,
+    "single_comments": 1
+  },
+  "tests/test_macos_crash_report.py": {
+    "loc": 202,
+    "lloc": 134,
+    "sloc": 158,
+    "comments": 7,
+    "multi": 12,
+    "blank": 22,
+    "single_comments": 10
+  },
+  "tests/test_macos_hotkey_integration.py": {
+    "loc": 22,
+    "lloc": 15,
+    "sloc": 17,
+    "comments": 0,
+    "multi": 0,
+    "blank": 4,
+    "single_comments": 1
+  },
+  "tests/test_macos_hotkey_startup.py": {
+    "loc": 82,
+    "lloc": 68,
+    "sloc": 64,
+    "comments": 0,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 1
+  },
+  "tests/test_macos_tray_guard.py": {
+    "loc": 41,
+    "lloc": 34,
+    "sloc": 29,
+    "comments": 0,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 1
+  },
+  "tests/test_macos_tray_integration.py": {
+    "loc": 49,
+    "lloc": 29,
+    "sloc": 42,
+    "comments": 0,
+    "multi": 0,
+    "blank": 6,
+    "single_comments": 1
+  },
+  "tests/test_max_turn_digest_generation_budget.py": {
+    "loc": 38,
+    "lloc": 32,
+    "sloc": 30,
+    "comments": 0,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 1
+  },
+  "tests/test_mcp_catalogue.py": {
+    "loc": 110,
+    "lloc": 66,
+    "sloc": 77,
+    "comments": 1,
+    "multi": 4,
+    "blank": 18,
+    "single_comments": 11
+  },
+  "tests/test_mcp_client.py": {
+    "loc": 890,
+    "lloc": 547,
+    "sloc": 602,
+    "comments": 23,
+    "multi": 55,
+    "blank": 196,
+    "single_comments": 37
+  },
+  "tests/test_mcp_discovery.py": {
+    "loc": 345,
+    "lloc": 191,
+    "sloc": 242,
+    "comments": 14,
+    "multi": 8,
+    "blank": 72,
+    "single_comments": 23
+  },
+  "tests/test_mcp_e2e.py": {
+    "loc": 169,
+    "lloc": 92,
+    "sloc": 113,
+    "comments": 3,
+    "multi": 10,
+    "blank": 38,
+    "single_comments": 8
+  },
+  "tests/test_mcp_integration.py": {
+    "loc": 163,
+    "lloc": 92,
+    "sloc": 109,
+    "comments": 8,
+    "multi": 10,
+    "blank": 34,
+    "single_comments": 10
+  },
+  "tests/test_memory_digest_generation_budget.py": {
+    "loc": 39,
+    "lloc": 30,
+    "sloc": 31,
+    "comments": 0,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 1
+  },
+  "tests/test_memory_recall_generation_budget.py": {
+    "loc": 40,
+    "lloc": 31,
+    "sloc": 32,
+    "comments": 0,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 1
+  },
+  "tests/test_memory_viewer_diary_optimise_api.py": {
+    "loc": 172,
+    "lloc": 102,
+    "sloc": 127,
+    "comments": 4,
+    "multi": 16,
+    "blank": 25,
+    "single_comments": 4
+  },
+  "tests/test_memory_viewer_diary_scrub_api.py": {
+    "loc": 192,
+    "lloc": 93,
+    "sloc": 116,
+    "comments": 22,
+    "multi": 29,
+    "blank": 26,
+    "single_comments": 21
+  },
+  "tests/test_memory_viewer_graph_api.py": {
+    "loc": 75,
+    "lloc": 48,
+    "sloc": 49,
+    "comments": 2,
+    "multi": 6,
+    "blank": 18,
+    "single_comments": 2
+  },
+  "tests/test_missing_portaudio.py": {
+    "loc": 100,
+    "lloc": 28,
+    "sloc": 61,
+    "comments": 4,
+    "multi": 12,
+    "blank": 20,
+    "single_comments": 7
+  },
+  "tests/test_mlx_bundle.py": {
+    "loc": 68,
+    "lloc": 61,
+    "sloc": 55,
+    "comments": 1,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 2
+  },
+  "tests/test_mlx_bundle_integration.py": {
+    "loc": 41,
+    "lloc": 27,
+    "sloc": 37,
+    "comments": 0,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 1
+  },
+  "tests/test_model_budget_selection.py": {
+    "loc": 99,
+    "lloc": 79,
+    "sloc": 74,
+    "comments": 1,
+    "multi": 0,
+    "blank": 23,
+    "single_comments": 2
+  },
+  "tests/test_model_tiers.py": {
+    "loc": 166,
+    "lloc": 100,
+    "sloc": 116,
+    "comments": 3,
+    "multi": 17,
+    "blank": 29,
+    "single_comments": 4
+  },
+  "tests/test_nonblocking_voice_capture.py": {
+    "loc": 431,
+    "lloc": 382,
+    "sloc": 388,
+    "comments": 1,
+    "multi": 0,
+    "blank": 41,
+    "single_comments": 2
+  },
+  "tests/test_openai_compatible_e2e.py": {
+    "loc": 317,
+    "lloc": 227,
+    "sloc": 244,
+    "comments": 6,
+    "multi": 16,
+    "blank": 53,
+    "single_comments": 4
+  },
+  "tests/test_piper_download_recovery.py": {
+    "loc": 160,
+    "lloc": 137,
+    "sloc": 126,
+    "comments": 0,
+    "multi": 0,
+    "blank": 31,
+    "single_comments": 3
+  },
+  "tests/test_piper_tts.py": {
+    "loc": 649,
+    "lloc": 410,
+    "sloc": 397,
+    "comments": 54,
+    "multi": 0,
+    "blank": 157,
+    "single_comments": 95
+  },
+  "tests/test_planner.py": {
+    "loc": 877,
+    "lloc": 395,
+    "sloc": 646,
+    "comments": 11,
+    "multi": 99,
+    "blank": 117,
+    "single_comments": 15
+  },
+  "tests/test_planner_complete_arguments.py": {
+    "loc": 67,
+    "lloc": 50,
+    "sloc": 56,
+    "comments": 0,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 1
+  },
+  "tests/test_planner_dialogue_window.py": {
+    "loc": 88,
+    "lloc": 63,
+    "sloc": 71,
+    "comments": 0,
+    "multi": 0,
+    "blank": 16,
+    "single_comments": 1
+  },
+  "tests/test_planner_generation_budget.py": {
+    "loc": 39,
+    "lloc": 36,
+    "sloc": 36,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 1
+  },
+  "tests/test_planner_required_arguments.py": {
+    "loc": 111,
+    "lloc": 83,
+    "sloc": 88,
+    "comments": 0,
+    "multi": 0,
+    "blank": 22,
+    "single_comments": 1
+  },
+  "tests/test_planner_typed_arguments.py": {
+    "loc": 73,
+    "lloc": 53,
+    "sloc": 63,
+    "comments": 0,
+    "multi": 0,
+    "blank": 9,
+    "single_comments": 1
+  },
+  "tests/test_planner_url_arguments.py": {
+    "loc": 50,
+    "lloc": 32,
+    "sloc": 40,
+    "comments": 0,
+    "multi": 0,
+    "blank": 9,
+    "single_comments": 1
+  },
+  "tests/test_portaudio_serialisation.py": {
+    "loc": 239,
+    "lloc": 155,
+    "sloc": 154,
+    "comments": 16,
+    "multi": 24,
+    "blank": 49,
+    "single_comments": 12
+  },
+  "tests/test_prompts.py": {
+    "loc": 237,
+    "lloc": 102,
+    "sloc": 132,
+    "comments": 32,
+    "multi": 28,
+    "blank": 50,
+    "single_comments": 27
+  },
+  "tests/test_prompt_dump.py": {
+    "loc": 122,
+    "lloc": 66,
+    "sloc": 86,
+    "comments": 3,
+    "multi": 13,
+    "blank": 20,
+    "single_comments": 3
+  },
+  "tests/test_provider_model_resolution.py": {
+    "loc": 191,
+    "lloc": 108,
+    "sloc": 129,
+    "comments": 3,
+    "multi": 28,
+    "blank": 31,
+    "single_comments": 3
+  },
+  "tests/test_qt_fixture_lifecycle.py": {
+    "loc": 57,
+    "lloc": 17,
+    "sloc": 47,
+    "comments": 0,
+    "multi": 0,
+    "blank": 9,
+    "single_comments": 1
+  },
+  "tests/test_query_validation.py": {
+    "loc": 613,
+    "lloc": 314,
+    "sloc": 290,
+    "comments": 88,
+    "multi": 106,
+    "blank": 134,
+    "single_comments": 83
+  },
+  "tests/test_readme_presentation.py": {
+    "loc": 64,
+    "lloc": 52,
+    "sloc": 49,
+    "comments": 0,
+    "multi": 0,
+    "blank": 14,
+    "single_comments": 1
+  },
+  "tests/test_recall_gate.py": {
+    "loc": 75,
+    "lloc": 32,
+    "sloc": 54,
+    "comments": 5,
+    "multi": 6,
+    "blank": 10,
+    "single_comments": 5
+  },
+  "tests/test_redact_extended.py": {
+    "loc": 86,
+    "lloc": 66,
+    "sloc": 65,
+    "comments": 0,
+    "multi": 3,
+    "blank": 18,
+    "single_comments": 0
+  },
+  "tests/test_review_478_defects.py": {
+    "loc": 231,
+    "lloc": 109,
+    "sloc": 124,
+    "comments": 9,
+    "multi": 34,
+    "blank": 64,
+    "single_comments": 9
+  },
+  "tests/test_settings_window.py": {
+    "loc": 518,
+    "lloc": 346,
+    "sloc": 360,
+    "comments": 11,
+    "multi": 25,
+    "blank": 86,
+    "single_comments": 47
+  },
+  "tests/test_setup_wizard.py": {
+    "loc": 2025,
+    "lloc": 1422,
+    "sloc": 1485,
+    "comments": 48,
+    "multi": 94,
+    "blank": 317,
+    "single_comments": 129
+  },
+  "tests/test_setup_wizard_install_chain.py": {
+    "loc": 76,
+    "lloc": 11,
+    "sloc": 42,
+    "comments": 0,
+    "multi": 15,
+    "blank": 18,
+    "single_comments": 1
+  },
+  "tests/test_short_query_echo.py": {
+    "loc": 170,
+    "lloc": 78,
+    "sloc": 97,
+    "comments": 23,
+    "multi": 24,
+    "blank": 34,
+    "single_comments": 15
+  },
+  "tests/test_splash_screen.py": {
+    "loc": 78,
+    "lloc": 55,
+    "sloc": 43,
+    "comments": 2,
+    "multi": 5,
+    "blank": 17,
+    "single_comments": 13
+  },
+  "tests/test_state_manager.py": {
+    "loc": 605,
+    "lloc": 401,
+    "sloc": 362,
+    "comments": 41,
+    "multi": 15,
+    "blank": 154,
+    "single_comments": 74
+  },
+  "tests/test_stop_command_echo.py": {
+    "loc": 74,
+    "lloc": 40,
+    "sloc": 56,
+    "comments": 0,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 1
+  },
+  "tests/test_system_prompt.py": {
+    "loc": 28,
+    "lloc": 17,
+    "sloc": 16,
+    "comments": 1,
+    "multi": 5,
+    "blank": 7,
+    "single_comments": 0
+  },
+  "tests/test_text_tool_call_parser.py": {
+    "loc": 230,
+    "lloc": 94,
+    "sloc": 154,
+    "comments": 3,
+    "multi": 32,
+    "blank": 39,
+    "single_comments": 5
+  },
+  "tests/test_time_context.py": {
+    "loc": 46,
+    "lloc": 25,
+    "sloc": 22,
+    "comments": 8,
+    "multi": 2,
+    "blank": 12,
+    "single_comments": 10
+  },
+  "tests/test_tools.py": {
+    "loc": 264,
+    "lloc": 124,
+    "sloc": 210,
+    "comments": 13,
+    "multi": 0,
+    "blank": 39,
+    "single_comments": 15
+  },
+  "tests/test_tool_digest_generation_budget.py": {
+    "loc": 41,
+    "lloc": 31,
+    "sloc": 33,
+    "comments": 0,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 1
+  },
+  "tests/test_tool_router_resolution.py": {
+    "loc": 65,
+    "lloc": 36,
+    "sloc": 30,
+    "comments": 0,
+    "multi": 20,
+    "blank": 14,
+    "single_comments": 1
+  },
+  "tests/test_tool_search_tool.py": {
+    "loc": 69,
+    "lloc": 42,
+    "sloc": 55,
+    "comments": 3,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 4
+  },
+  "tests/test_tool_selection.py": {
+    "loc": 647,
+    "lloc": 325,
+    "sloc": 469,
+    "comments": 38,
+    "multi": 37,
+    "blank": 100,
+    "single_comments": 41
+  },
+  "tests/test_transcript_buffer.py": {
+    "loc": 566,
+    "lloc": 393,
+    "sloc": 381,
+    "comments": 27,
+    "multi": 0,
+    "blank": 111,
+    "single_comments": 74
+  },
+  "tests/test_tts_preprocessing.py": {
+    "loc": 304,
+    "lloc": 210,
+    "sloc": 216,
+    "comments": 23,
+    "multi": 4,
+    "blank": 58,
+    "single_comments": 26
+  },
+  "tests/test_tts_startup_status.py": {
+    "loc": 75,
+    "lloc": 68,
+    "sloc": 63,
+    "comments": 0,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 1
+  },
+  "tests/test_tune_player.py": {
+    "loc": 251,
+    "lloc": 156,
+    "sloc": 159,
+    "comments": 22,
+    "multi": 16,
+    "blank": 53,
+    "single_comments": 23
+  },
+  "tests/test_updater.py": {
+    "loc": 1447,
+    "lloc": 789,
+    "sloc": 1116,
+    "comments": 83,
+    "multi": 54,
+    "blank": 188,
+    "single_comments": 89
+  },
+  "tests/test_vector_store_isolation.py": {
+    "loc": 145,
+    "lloc": 115,
+    "sloc": 114,
+    "comments": 1,
+    "multi": 0,
+    "blank": 29,
+    "single_comments": 2
+  },
+  "tests/test_vector_validation.py": {
+    "loc": 91,
+    "lloc": 67,
+    "sloc": 69,
+    "comments": 0,
+    "multi": 0,
+    "blank": 21,
+    "single_comments": 1
+  },
+  "tests/test_vector_write_failure.py": {
+    "loc": 79,
+    "lloc": 66,
+    "sloc": 66,
+    "comments": 1,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 2
+  },
+  "tests/test_voice_listener.py": {
+    "loc": 2126,
+    "lloc": 1542,
+    "sloc": 1528,
+    "comments": 90,
+    "multi": 13,
+    "blank": 394,
+    "single_comments": 191
+  },
+  "tests/test_vram.py": {
+    "loc": 208,
+    "lloc": 148,
+    "sloc": 129,
+    "comments": 1,
+    "multi": 6,
+    "blank": 44,
+    "single_comments": 29
+  },
+  "tests/test_wake_alias_boundaries.py": {
+    "loc": 62,
+    "lloc": 29,
+    "sloc": 46,
+    "comments": 0,
+    "multi": 0,
+    "blank": 15,
+    "single_comments": 1
+  },
+  "tests/test_wake_detection.py": {
+    "loc": 88,
+    "lloc": 57,
+    "sloc": 52,
+    "comments": 0,
+    "multi": 3,
+    "blank": 25,
+    "single_comments": 8
+  },
+  "tests/test_web_search_response_lifecycle.py": {
+    "loc": 123,
+    "lloc": 100,
+    "sloc": 102,
+    "comments": 0,
+    "multi": 0,
+    "blank": 20,
+    "single_comments": 1
+  },
+  "tests/test_whisper_performance_guidance.py": {
+    "loc": 57,
+    "lloc": 45,
+    "sloc": 45,
+    "comments": 0,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 1
+  },
+  "tests/test_whisper_pre_download.py": {
+    "loc": 306,
+    "lloc": 262,
+    "sloc": 256,
+    "comments": 1,
+    "multi": 0,
+    "blank": 48,
+    "single_comments": 2
+  },
+  "tests/test_whisper_runtime_recovery.py": {
+    "loc": 129,
+    "lloc": 107,
+    "sloc": 108,
+    "comments": 0,
+    "multi": 0,
+    "blank": 19,
+    "single_comments": 2
+  },
+  "tests/test_wizard_layout.py": {
+    "loc": 130,
+    "lloc": 108,
+    "sloc": 117,
+    "comments": 1,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 2
+  },
+  "tests/fixtures/macos_hotkey_probe.py": {
+    "loc": 42,
+    "lloc": 39,
+    "sloc": 36,
+    "comments": 2,
+    "multi": 0,
+    "blank": 4,
+    "single_comments": 2
+  },
+  "tests/fixtures/macos_tray_probe.py": {
+    "loc": 57,
+    "lloc": 57,
+    "sloc": 56,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "tests/fixtures/mlx_bundle_probe.py": {
+    "loc": 21,
+    "lloc": 19,
+    "sloc": 19,
+    "comments": 1,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 1
+  },
+  "tests/performance/test_pipeline_timings.py": {
+    "loc": 234,
+    "lloc": 97,
+    "sloc": 141,
+    "comments": 24,
+    "multi": 31,
+    "blank": 41,
+    "single_comments": 21
+  },
+  "tests/performance/timing_recorder.py": {
+    "loc": 276,
+    "lloc": 157,
+    "sloc": 200,
+    "comments": 38,
+    "multi": 21,
+    "blank": 30,
+    "single_comments": 25
+  },
+  "tests/performance/__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "tests/tools/__init__.py": {
+    "loc": 1,
+    "lloc": 1,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 1
+  },
+  "tests/tools/builtin/test_fetch_web_page.py": {
+    "loc": 158,
+    "lloc": 112,
+    "sloc": 114,
+    "comments": 1,
+    "multi": 4,
+    "blank": 27,
+    "single_comments": 13
+  },
+  "tests/tools/builtin/test_local_files.py": {
+    "loc": 121,
+    "lloc": 103,
+    "sloc": 82,
+    "comments": 0,
+    "multi": 0,
+    "blank": 26,
+    "single_comments": 13
+  },
+  "tests/tools/builtin/test_screenshot.py": {
+    "loc": 98,
+    "lloc": 78,
+    "sloc": 74,
+    "comments": 5,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 11
+  },
+  "tests/tools/builtin/test_stop.py": {
+    "loc": 68,
+    "lloc": 51,
+    "sloc": 41,
+    "comments": 0,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 10
+  },
+  "tests/tools/builtin/test_time_tool.py": {
+    "loc": 171,
+    "lloc": 127,
+    "sloc": 124,
+    "comments": 2,
+    "multi": 0,
+    "blank": 32,
+    "single_comments": 15
+  },
+  "tests/tools/builtin/test_weather.py": {
+    "loc": 476,
+    "lloc": 275,
+    "sloc": 354,
+    "comments": 31,
+    "multi": 11,
+    "blank": 69,
+    "single_comments": 42
+  },
+  "tests/tools/builtin/test_weather_place_punctuation.py": {
+    "loc": 84,
+    "lloc": 64,
+    "sloc": 70,
+    "comments": 0,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 1
+  },
+  "tests/tools/builtin/test_web_search.py": {
+    "loc": 1173,
+    "lloc": 686,
+    "sloc": 815,
+    "comments": 87,
+    "multi": 141,
+    "blank": 119,
+    "single_comments": 98
+  },
+  "tests/tools/builtin/__init__.py": {
+    "loc": 1,
+    "lloc": 1,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 1
+  },
+  "tests/tools/builtin/nutrition/test_delete_meal.py": {
+    "loc": 59,
+    "lloc": 47,
+    "sloc": 37,
+    "comments": 1,
+    "multi": 0,
+    "blank": 14,
+    "single_comments": 8
+  },
+  "tests/tools/builtin/nutrition/test_fetch_meals.py": {
+    "loc": 74,
+    "lloc": 43,
+    "sloc": 53,
+    "comments": 2,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 8
+  },
+  "tests/tools/builtin/nutrition/test_log_meal.py": {
+    "loc": 177,
+    "lloc": 107,
+    "sloc": 122,
+    "comments": 5,
+    "multi": 15,
+    "blank": 30,
+    "single_comments": 10
+  },
+  "tests/tools/builtin/nutrition/test_log_meal_generation.py": {
+    "loc": 56,
+    "lloc": 47,
+    "sloc": 50,
+    "comments": 0,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "tests/tools/builtin/nutrition/test_log_meal_persistence.py": {
+    "loc": 100,
+    "lloc": 83,
+    "sloc": 80,
+    "comments": 0,
+    "multi": 0,
+    "blank": 19,
+    "single_comments": 1
+  },
+  "tests/tools/builtin/nutrition/__init__.py": {
+    "loc": 1,
+    "lloc": 1,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 1
+  }
+}
