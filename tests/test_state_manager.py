@@ -83,36 +83,62 @@ class TestQueryCollection:
         assert query == "hello world"
         assert sm.get_pending_query() == ""
 
-    def test_silence_timeout_triggers_collection_complete(self):
+    def test_silence_timeout_triggers_collection_complete(self, monkeypatch):
         """Collection times out after silence period."""
+        from types import SimpleNamespace
+        from jarvis.listening import state_manager
+
+        clock = [1000.0]
+        monkeypatch.setattr(state_manager, "time", SimpleNamespace(time=lambda: clock[0]))
         sm = StateManager(voice_collect_seconds=0.05)  # 50ms timeout
         sm.start_collection("test")
 
         # Initially no timeout
         assert sm.check_collection_timeout() is False
 
-        # Wait for timeout
-        time.sleep(0.06)
+        clock[0] += sm.voice_collect_seconds + 0.01
         assert sm.check_collection_timeout() is True
 
-    def test_max_duration_timeout(self):
+    def test_max_duration_timeout(self, monkeypatch):
         """Collection times out after max duration."""
+        from types import SimpleNamespace
+        from jarvis.listening import state_manager
+
+        clock = [1000.0]
+        monkeypatch.setattr(state_manager, "time", SimpleNamespace(time=lambda: clock[0]))
         sm = StateManager(max_collect_seconds=0.05)  # 50ms max
         sm.start_collection("test")
 
-        # Keep adding to prevent silence timeout
-        for _ in range(3):
-            time.sleep(0.02)
-            sm.add_to_collection("more")
+        # Keep adding just before the cap so silence never times out
+        clock[0] += sm.max_collect_seconds - 0.01
+        sm.add_to_collection("more")
+        assert sm.check_collection_timeout() is False
 
+        clock[0] += 0.02
+        sm.add_to_collection("more")
         assert sm.check_collection_timeout() is True
 
 
 class TestHotWindowActivation:
     """Tests for hot window activation timer."""
 
-    def test_schedule_hot_window_activation(self):
+    def test_schedule_hot_window_activation(self, monkeypatch):
         """Hot window activates after echo tolerance delay."""
+        timers = []
+
+        class FakeTimer:
+            def __init__(self, interval, function):
+                self.interval = interval
+                self.function = function
+                timers.append(self)
+
+            def start(self):
+                pass
+
+            def cancel(self):
+                pass
+
+        monkeypatch.setattr(threading, "Timer", FakeTimer)
         sm = StateManager(echo_tolerance=0.05, hot_window_seconds=1.0)
 
         # Patch print to avoid test output
@@ -121,43 +147,72 @@ class TestHotWindowActivation:
 
             # Not active immediately
             assert sm.is_hot_window_active() is False
+            assert timers[0].interval == sm.echo_tolerance
 
-            # Wait for activation
-            time.sleep(0.1)
+            # Fire the activation timer once the echo delay elapses
+            timers[0].function()
             assert sm.is_hot_window_active() is True
 
         sm.stop()
 
-    def test_cancel_hot_window_activation(self):
+    def test_cancel_hot_window_activation(self, monkeypatch):
         """Can cancel pending hot window activation."""
+        timers = []
+
+        class FakeTimer:
+            def __init__(self, interval, function):
+                self.function = function
+                self.cancelled = False
+                timers.append(self)
+
+            def start(self):
+                pass
+
+            def cancel(self):
+                self.cancelled = True
+
+        monkeypatch.setattr(threading, "Timer", FakeTimer)
         sm = StateManager(echo_tolerance=0.1, hot_window_seconds=1.0)
 
         with patch('builtins.print'):
             sm.schedule_hot_window_activation()
 
             # Cancel before activation
-            time.sleep(0.02)
             sm.cancel_hot_window_activation()
+            assert timers[0].cancelled is True
 
-            # Wait past activation time
-            time.sleep(0.15)
+            # A late callback from the cancelled timer must not activate
+            timers[0].function()
             assert sm.is_hot_window_active() is False
 
         sm.stop()
 
-    def test_hot_window_not_activated_during_collection(self):
+    def test_hot_window_not_activated_during_collection(self, monkeypatch):
         """Hot window doesn't activate if already collecting."""
+        timers = []
+
+        class FakeTimer:
+            def __init__(self, interval, function):
+                self.function = function
+                timers.append(self)
+
+            def start(self):
+                pass
+
+            def cancel(self):
+                pass
+
+        monkeypatch.setattr(threading, "Timer", FakeTimer)
         sm = StateManager(echo_tolerance=0.05, hot_window_seconds=1.0)
 
         with patch('builtins.print'):
             sm.schedule_hot_window_activation()
 
             # Start collection before activation
-            time.sleep(0.02)
             sm.start_collection("new query")
 
-            # Wait past activation time
-            time.sleep(0.1)
+            # Activation timer fires while collecting
+            timers[0].function()
 
             # Should still be in COLLECTING, not HOT_WINDOW
             assert sm.get_state() == ListeningState.COLLECTING
@@ -168,35 +223,64 @@ class TestHotWindowActivation:
 class TestHotWindowExpiry:
     """Tests for hot window expiry timer."""
 
-    def test_hot_window_expires_after_duration(self):
+    def test_hot_window_expires_after_duration(self, monkeypatch):
         """Hot window expires after configured duration."""
+        timers = []
+
+        class FakeTimer:
+            def __init__(self, interval, function):
+                self.function = function
+                timers.append(self)
+
+            def start(self):
+                pass
+
+            def cancel(self):
+                pass
+
+        monkeypatch.setattr(threading, "Timer", FakeTimer)
         sm = StateManager(echo_tolerance=0.02, hot_window_seconds=0.05)
 
         with patch('builtins.print'):
             sm.schedule_hot_window_activation()
 
-            # Wait for activation
-            time.sleep(0.04)
+            # Fire the activation timer
+            timers[0].function()
             assert sm.is_hot_window_active() is True
 
-            # Wait for expiry
-            time.sleep(0.1)
+            # Fire the expiry timer scheduled by the activation
+            timers[1].function()
             assert sm.is_hot_window_active() is False
             assert sm.get_state() == ListeningState.WAKE_WORD
 
         sm.stop()
 
-    def test_manual_expire_hot_window(self):
+    def test_manual_expire_hot_window(self, monkeypatch):
         """Can manually expire hot window."""
+        timers = []
+
+        class FakeTimer:
+            def __init__(self, interval, function):
+                self.function = function
+                timers.append(self)
+
+            def start(self):
+                pass
+
+            def cancel(self):
+                pass
+
+        monkeypatch.setattr(threading, "Timer", FakeTimer)
         sm = StateManager(echo_tolerance=0.02, hot_window_seconds=10.0)
 
         with patch('builtins.print'):
             sm.schedule_hot_window_activation()
-            time.sleep(0.04)
+            timers[0].function()
             assert sm.is_hot_window_active() is True
 
             sm.expire_hot_window()
             assert sm.is_hot_window_active() is False
+            assert sm.get_state() == ListeningState.WAKE_WORD
 
         sm.stop()
 
@@ -263,20 +347,24 @@ class TestHotWindowExpiry:
         assert sm.get_state() == ListeningState.COLLECTING
         sm.stop()
 
-    def test_check_hot_window_expiry_fallback(self):
+    def test_check_hot_window_expiry_fallback(self, monkeypatch):
         """check_hot_window_expiry provides synchronous expiry check."""
+        from types import SimpleNamespace
+        from jarvis.listening import state_manager
+
+        clock = [1000.0]
+        monkeypatch.setattr(state_manager, "time", SimpleNamespace(time=lambda: clock[0]))
         sm = StateManager(echo_tolerance=0.0, hot_window_seconds=0.05)
 
         with patch('builtins.print'):
             # Manually set hot window state
             sm._state = ListeningState.HOT_WINDOW
-            sm._hot_window_start_time = time.time()
+            sm._hot_window_start_time = clock[0]
 
             # Not expired yet
             assert sm.check_hot_window_expiry() is False
 
-            # Wait for expiry
-            time.sleep(0.06)
+            clock[0] += sm.hot_window_seconds + 0.01
             assert sm.check_hot_window_expiry() is True
             assert sm.get_state() == ListeningState.WAKE_WORD
 
@@ -327,21 +415,43 @@ class TestTimestampBasedHotWindowDetection:
 
         sm.stop()
 
-    def test_speech_after_expiry_not_detected(self):
+    def test_speech_after_expiry_not_detected(self, monkeypatch):
         """Speech starting after hot window expired returns False."""
+        from types import SimpleNamespace
+        from jarvis.listening import state_manager
+
+        timers = []
+
+        class FakeTimer:
+            def __init__(self, interval, function):
+                self.function = function
+                timers.append(self)
+
+            def start(self):
+                pass
+
+            def cancel(self):
+                pass
+
+        clock = [1000.0]
+        monkeypatch.setattr(state_manager, "time", SimpleNamespace(time=lambda: clock[0]))
+        monkeypatch.setattr(threading, "Timer", FakeTimer)
         sm = StateManager(echo_tolerance=0.02, hot_window_seconds=0.05)
 
         with patch('builtins.print'):
             sm.schedule_hot_window_activation()
-            time.sleep(0.04)
+            clock[0] += sm.echo_tolerance
+            timers[0].function()
             assert sm.is_hot_window_active() is True
 
-            # Wait for expiry
-            time.sleep(0.08)
+            # Expiry timer fires once the window duration elapses
+            clock[0] += sm.hot_window_seconds
+            timers[1].function()
             assert sm.is_hot_window_active() is False
 
             # Speech starts AFTER expiry
-            speech_start = time.time()
+            clock[0] += 0.03
+            speech_start = clock[0]
             assert sm.was_speech_during_hot_window(speech_start) is False
 
         sm.stop()

@@ -519,6 +519,8 @@ class TestPiperTTSThreadSafety:
         for _ in range(10):
             tts.interrupt()
 
+        assert not tts.is_speaking()
+
     def test_start_stop_cycle(self):
         """Start and stop should be safe to call multiple times."""
         from src.jarvis.output.tts import PiperTTS
@@ -529,6 +531,8 @@ class TestPiperTTSThreadSafety:
         for _ in range(3):
             tts.start()
             tts.stop()
+
+        assert not tts.is_speaking()
 
     def test_concurrent_speaks(self):
         """Multiple threads calling speak should not crash."""
@@ -547,8 +551,9 @@ class TestPiperTTSThreadSafety:
         for t in threads:
             t.join()
 
-        # Should not crash, queue should have items
-        # (actual number depends on timing)
+        # Should not crash; the unavailable fake voice disables the engine
+        assert tts.enabled is False
+        assert not tts.is_speaking()
 
 
 class TestPiperVoiceDownloadRetry:

@@ -35,9 +35,6 @@ def test_configuration_loading():
         mcps = getattr(cfg, 'mcps', {})
 
         print(f"   Found {len(mcps)} configured MCP servers")
-        for server_name, server_config in mcps.items():
-            command = server_config.get('command', 'unknown')
-            print(f"   - {server_name}: {command}")
 
         # Assert that we have at least some MCP configuration
         assert isinstance(mcps, dict), "MCP configuration should be a dictionary"
@@ -50,19 +47,8 @@ def test_configuration_loading():
 
 @pytest.mark.e2e
 def test_mcp_discovery_with_mock():
-    """Test MCP discovery with mocked servers."""
-    print("🔍 Testing MCP tool discovery (mocked)...")
-
-    # Create a fake MCP configuration
-    fake_mcps = {
-        "test-server": {
-            "command": "echo",
-            "args": ["test"]
-        }
-    }
-
-    # Mock the MCPClient to avoid actual server connections
-    from unittest.mock import patch, Mock
+    """Discovery exposes every tool from a configured local server."""
+    from unittest.mock import patch
 
     class FakeMCPClient:
         def __init__(self, config):
@@ -72,80 +58,44 @@ def test_mcp_discovery_with_mock():
             return [
                 {"name": "read", "description": "Read a file"},
                 {"name": "write", "description": "Write a file"},
-                {"name": "list", "description": "List directory contents"}
+                {"name": "list", "description": "List directory contents"},
             ]
 
-    try:
-        with patch('src.jarvis.tools.registry.MCPClient', FakeMCPClient):
-            mcp_tools, _errors = discover_mcp_tools(fake_mcps)
+    with patch('src.jarvis.tools.registry.MCPClient', FakeMCPClient):
+        tools, errors = discover_mcp_tools({"test-server": {"command": "local-mcp"}})
 
-        expected_tools = {
-            "test-server__read",
-            "test-server__write",
-            "test-server__list"
-        }
-
-        actual_tools = set(mcp_tools.keys())
-
-        assert actual_tools == expected_tools, f"Tool mismatch. Expected: {expected_tools}, Got: {actual_tools}"
-        print(f"   ✅ Successfully discovered {len(mcp_tools)} tools")
-        for tool_name in mcp_tools:
-            print(f"      - {tool_name}")
-
-    except Exception as e:
-        print(f"   ❌ Discovery failed: {e}")
-        import traceback
-        traceback.print_exc()
-        assert False, f"Discovery failed: {e}"
+    assert errors == {}
+    assert set(tools) == {
+        "test-server__read",
+        "test-server__write",
+        "test-server__list",
+    }
+    assert tools["test-server__read"].description == "Read a file"
 
 
 @pytest.mark.e2e
 def test_tool_registration_in_descriptions():
-    """Test that discovered tools appear in tool descriptions."""
-    print("📝 Testing tool description generation...")
-
+    """Descriptions include each allowed MCP tool and its purpose."""
     from src.jarvis.tools.registry import ToolSpec
 
-    # Create mock MCP tools
-    mock_mcp_tools = {
-            "server1__tool1": ToolSpec(
-                name="server1__tool1",
-                description="Test tool 1 from server1",
-                inputSchema={
-                    "type": "object",
-                    "properties": {},
-                    "required": []
-                }
-            ),
-            "server2__tool2": ToolSpec(
-                name="server2__tool2",
-                description="Test tool 2 from server2",
-                inputSchema={
-                    "type": "object",
-                    "properties": {},
-                    "required": []
-                }
-            )
-        }
+    mcp_tools = {
+        "server1__tool1": ToolSpec(
+            name="server1__tool1",
+            description="Test tool 1 from server1",
+            inputSchema={"type": "object", "properties": {}, "required": []},
+        ),
+        "server2__tool2": ToolSpec(
+            name="server2__tool2",
+            description="Test tool 2 from server2",
+            inputSchema={"type": "object", "properties": {}, "required": []},
+        ),
+    }
+    description = generate_tools_description(list(mcp_tools), mcp_tools)
 
-    try:
-        allowed_tools = ["screenshot", "webSearch", "server1__tool1", "server2__tool2"]
-        description = generate_tools_description(allowed_tools, mock_mcp_tools)
-
-        # Check that MCP tools appear in description
-        success = True
-        for tool_name in mock_mcp_tools:
-            if tool_name not in description:
-                print(f"   ❌ Tool {tool_name} not found in description")
-                success = False
-
-        assert success, "Not all MCP tools appear in descriptions"
-        print("   ✅ All MCP tools appear in descriptions")
-        print(f"   📄 Description length: {len(description)} characters")
-
-    except Exception as e:
-        print(f"   ❌ Description generation failed: {e}")
-        assert False, f"Description generation failed: {e}"
+    assert "server1__tool1" in description
+    assert "Test tool 1 from server1" in description
+    assert "server2__tool2" in description
+    assert "Test tool 2 from server2" in description
 
 
 @pytest.mark.e2e
@@ -160,13 +110,11 @@ def test_tool_name_format():
             self.config = config
 
         def list_tools(self, server_name):
-            if server_name == "my-server":
-                return [
-                    {"name": "tool_with_underscores", "description": "Test tool"},
-                    {"name": "tool-with-dashes", "description": "Another test tool"},
-                    {"name": "simpletool", "description": "Simple tool"}
-                ]
-            return []
+            return [
+                {"name": "tool_with_underscores", "description": "Test tool"},
+                {"name": "tool-with-dashes", "description": "Another test tool"},
+                {"name": "simpletool", "description": "Simple tool"}
+            ]
 
     try:
         with patch('src.jarvis.tools.registry.MCPClient', FakeMCPClient):
@@ -183,8 +131,6 @@ def test_tool_name_format():
 
         assert actual_names == expected_names, f"Naming mismatch. Expected: {expected_names}, Got: {actual_names}"
         print("   ✅ Tool naming convention is correct")
-        for name in actual_names:
-            print(f"      - {name}")
 
     except Exception as e:
         print(f"   ❌ Naming test failed: {e}")
@@ -196,21 +142,17 @@ def test_error_handling():
     """Test that MCP errors are handled gracefully."""
     print("⚠️  Testing error handling...")
 
-    from unittest.mock import patch
+    from unittest.mock import patch, Mock
 
-    class FaultyMCPClient:
-        def __init__(self, config):
-            pass
-
-        def list_tools(self, server_name):
-            if server_name == "good-server":
-                return [{"name": "working_tool", "description": "This works"}]
-            elif server_name == "bad-server":
-                raise Exception("Server connection failed")
-            return []
+    client = Mock()
+    client.list_tools.side_effect = [
+        [{"name": "working_tool", "description": "This works"}],
+        ConnectionError("Server connection failed"),
+        [],
+    ]
 
     try:
-        with patch('src.jarvis.tools.registry.MCPClient', FaultyMCPClient):
+        with patch('src.jarvis.tools.registry.MCPClient', return_value=client):
             mcps_config = {
                 "good-server": {"command": "good"},
                 "bad-server": {"command": "bad"},
@@ -219,13 +161,8 @@ def test_error_handling():
             mcp_tools, mcp_errors = discover_mcp_tools(mcps_config)
 
         # Should only get tools from the good server
-        if len(mcp_tools) == 1 and "good-server__working_tool" in mcp_tools:
-            print("   ✅ Error handling works correctly")
-            print("      - Good server tools discovered")
-            print("      - Bad server errors handled gracefully")
-        else:
-            print(f"   ❌ Expected 1 tool, got {len(mcp_tools)}: {list(mcp_tools.keys())}")
-            assert False, f"Expected 1 tool, got {len(mcp_tools)}: {list(mcp_tools.keys())}"
+        assert set(mcp_tools) == {"good-server__working_tool"}
+        assert mcp_errors == {"bad-server": "Server connection failed"}
 
     except Exception as e:
         print(f"   ❌ Error handling test failed: {e}")

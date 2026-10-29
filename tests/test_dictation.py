@@ -628,11 +628,22 @@ class TestClipboard:
         # window has focus and pop open System Settings.
         mock_cge.assert_called_once()
 
-    def test_clipboard_paste_empty_string_is_noop(self):
+    @patch("src.jarvis.dictation.dictation_engine._clipboard_linux")
+    @patch("src.jarvis.dictation.dictation_engine._clipboard_macos")
+    @patch("src.jarvis.dictation.dictation_engine._clipboard_windows")
+    @patch("src.jarvis.dictation.dictation_engine.pynput_keyboard")
+    def test_clipboard_paste_empty_string_is_noop(
+        self, mock_kb, mock_clip_win, mock_clip_mac, mock_clip_linux
+    ):
         from src.jarvis.dictation.dictation_engine import _clipboard_paste
         # Should return immediately without error
         _clipboard_paste("")
         _clipboard_paste(None)
+
+        mock_clip_win.assert_not_called()
+        mock_clip_mac.assert_not_called()
+        mock_clip_linux.assert_not_called()
+        mock_kb.Controller.assert_not_called()
 
 
 # ---------------------------------------------------------------------------
@@ -926,11 +937,15 @@ class TestDictationProcessingCallback:
 
         engine = _make_engine(on_dictation_processing_start=None)
 
+        audio_frames = []
+
         with patch.object(de, "_close_stream"), \
              patch.object(de, "_play_beep"), \
-             patch.object(engine, "_transcribe_and_paste"):
+             patch.object(engine, "_transcribe_and_paste") as mock_transcribe:
             # Should not raise
-            engine._finalise_and_transcribe(stream=MagicMock(), audio_frames=[], start_time=time.time())
+            engine._finalise_and_transcribe(stream=MagicMock(), audio_frames=audio_frames, start_time=time.time())
+
+        mock_transcribe.assert_called_once_with(audio_frames)
 
 
 # ---------------------------------------------------------------------------
